@@ -1,0 +1,6334 @@
+{
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "generatedAt": "2026-11-19T17:22:37.180Z",
+    "sourceFileKey": null,
+    "exportedBy": "Variable-Export/Import plugin"
+  },
+  "collections": [
+    {
+      "id": "VariableCollectionId:118:970",
+      "name": "Primitive - VinBus",
+      "key": "45614bd9711c526d619d77b29fbea59d16de6058",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "isExtension": false,
+      "defaultModeId": "118:0",
+      "modes": [
+        {
+          "modeId": "118:0",
+          "name": "Value"
+        }
+      ],
+      "variableIds": [
+        "VariableID:118:972",
+        "VariableID:118:973",
+        "VariableID:118:974",
+        "VariableID:118:975",
+        "VariableID:118:976",
+        "VariableID:118:977",
+        "VariableID:118:978",
+        "VariableID:118:979",
+        "VariableID:118:980",
+        "VariableID:118:981",
+        "VariableID:118:982",
+        "VariableID:118:983",
+        "VariableID:118:984",
+        "VariableID:118:985",
+        "VariableID:118:986",
+        "VariableID:118:987",
+        "VariableID:118:988",
+        "VariableID:118:989",
+        "VariableID:118:990",
+        "VariableID:118:991",
+        "VariableID:118:992",
+        "VariableID:118:993",
+        "VariableID:118:994",
+        "VariableID:118:995",
+        "VariableID:118:996",
+        "VariableID:118:997",
+        "VariableID:118:998",
+        "VariableID:118:999",
+        "VariableID:118:1000",
+        "VariableID:118:1001",
+        "VariableID:118:1002",
+        "VariableID:118:1003",
+        "VariableID:118:1004",
+        "VariableID:118:1005",
+        "VariableID:118:1006",
+        "VariableID:118:1007",
+        "VariableID:118:1008",
+        "VariableID:118:1009",
+        "VariableID:118:1010",
+        "VariableID:118:1011",
+        "VariableID:118:1012",
+        "VariableID:118:1013",
+        "VariableID:118:1014",
+        "VariableID:118:1015",
+        "VariableID:118:1016",
+        "VariableID:118:1017",
+        "VariableID:118:1018",
+        "VariableID:118:1019",
+        "VariableID:118:1020",
+        "VariableID:118:1021",
+        "VariableID:118:1022",
+        "VariableID:118:1023",
+        "VariableID:118:1024",
+        "VariableID:118:1025",
+        "VariableID:118:1026",
+        "VariableID:118:1027",
+        "VariableID:118:1028",
+        "VariableID:118:1029",
+        "VariableID:118:1030",
+        "VariableID:118:1031",
+        "VariableID:118:1032",
+        "VariableID:118:1033",
+        "VariableID:118:1034",
+        "VariableID:118:1035",
+        "VariableID:118:1036",
+        "VariableID:118:1037",
+        "VariableID:118:1038",
+        "VariableID:118:1039",
+        "VariableID:118:1040",
+        "VariableID:131:2147",
+        "VariableID:118:1041",
+        "VariableID:118:1042",
+        "VariableID:118:1043",
+        "VariableID:118:1044",
+        "VariableID:225:971",
+        "VariableID:118:1045",
+        "VariableID:118:1046",
+        "VariableID:118:1047",
+        "VariableID:118:1048",
+        "VariableID:118:1049",
+        "VariableID:118:1050",
+        "VariableID:118:1051",
+        "VariableID:118:1052",
+        "VariableID:118:1053",
+        "VariableID:118:1054",
+        "VariableID:118:1055",
+        "VariableID:118:1056",
+        "VariableID:118:1057",
+        "VariableID:118:1058",
+        "VariableID:118:1059",
+        "VariableID:118:1060",
+        "VariableID:118:1061",
+        "VariableID:118:1062",
+        "VariableID:118:1063",
+        "VariableID:118:1064",
+        "VariableID:118:1065",
+        "VariableID:118:1066",
+        "VariableID:118:1067",
+        "VariableID:118:1068",
+        "VariableID:118:1069",
+        "VariableID:118:1070",
+        "VariableID:118:1071",
+        "VariableID:118:1072",
+        "VariableID:118:1073",
+        "VariableID:118:1229",
+        "VariableID:118:1230",
+        "VariableID:118:1231",
+        "VariableID:118:1232",
+        "VariableID:118:1233",
+        "VariableID:118:1234",
+        "VariableID:118:1235",
+        "VariableID:118:1236"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:118:971",
+      "name": "Semantic - VinBus",
+      "key": "0c3ea2d757b49d23f6221e8f23913501601623c0",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "isExtension": false,
+      "defaultModeId": "118:1",
+      "modes": [
+        {
+          "modeId": "118:1",
+          "name": "Light"
+        },
+        {
+          "modeId": "118:2",
+          "name": "Dark"
+        }
+      ],
+      "variableIds": [
+        "VariableID:118:1074",
+        "VariableID:118:1075",
+        "VariableID:118:1076",
+        "VariableID:118:1077",
+        "VariableID:118:1078",
+        "VariableID:118:1079",
+        "VariableID:118:1080",
+        "VariableID:118:1081",
+        "VariableID:118:1082",
+        "VariableID:118:1083",
+        "VariableID:207:970",
+        "VariableID:118:1084",
+        "VariableID:118:1085",
+        "VariableID:118:1086",
+        "VariableID:118:1087",
+        "VariableID:118:1088",
+        "VariableID:118:1089",
+        "VariableID:224:970",
+        "VariableID:118:1090",
+        "VariableID:118:1091",
+        "VariableID:118:1092",
+        "VariableID:118:1093",
+        "VariableID:118:1094",
+        "VariableID:118:1095",
+        "VariableID:118:1096",
+        "VariableID:118:1097",
+        "VariableID:118:1098",
+        "VariableID:118:1099",
+        "VariableID:118:1100",
+        "VariableID:118:1101",
+        "VariableID:118:1102",
+        "VariableID:118:1103",
+        "VariableID:118:1104",
+        "VariableID:118:1105",
+        "VariableID:118:1106",
+        "VariableID:118:1107",
+        "VariableID:118:1108",
+        "VariableID:118:1109",
+        "VariableID:118:1110",
+        "VariableID:118:1111",
+        "VariableID:118:1112",
+        "VariableID:118:1113",
+        "VariableID:118:1114",
+        "VariableID:118:1115",
+        "VariableID:118:1116",
+        "VariableID:118:1117",
+        "VariableID:118:1118",
+        "VariableID:118:1119",
+        "VariableID:118:1120",
+        "VariableID:118:1121",
+        "VariableID:118:1122",
+        "VariableID:118:1123",
+        "VariableID:118:1124",
+        "VariableID:118:1125",
+        "VariableID:118:1126",
+        "VariableID:118:1127",
+        "VariableID:118:1128",
+        "VariableID:118:1129",
+        "VariableID:118:1130",
+        "VariableID:118:1131",
+        "VariableID:118:1132",
+        "VariableID:118:1133",
+        "VariableID:118:1134",
+        "VariableID:118:1135",
+        "VariableID:118:1136",
+        "VariableID:118:1137",
+        "VariableID:118:1138",
+        "VariableID:118:1139",
+        "VariableID:118:1140",
+        "VariableID:118:1141",
+        "VariableID:118:1142",
+        "VariableID:118:1143",
+        "VariableID:118:1144",
+        "VariableID:118:1145",
+        "VariableID:118:1146",
+        "VariableID:118:1147",
+        "VariableID:118:1148",
+        "VariableID:118:1149",
+        "VariableID:118:1150",
+        "VariableID:118:1151",
+        "VariableID:118:1152",
+        "VariableID:118:1153",
+        "VariableID:118:1154",
+        "VariableID:118:1155",
+        "VariableID:118:1156",
+        "VariableID:118:1157",
+        "VariableID:118:1158",
+        "VariableID:118:1159",
+        "VariableID:118:1160",
+        "VariableID:118:1161",
+        "VariableID:118:1162",
+        "VariableID:118:1163",
+        "VariableID:118:1164",
+        "VariableID:118:1165",
+        "VariableID:118:1166",
+        "VariableID:118:1167",
+        "VariableID:118:1168",
+        "VariableID:118:1169",
+        "VariableID:118:1170",
+        "VariableID:118:1171",
+        "VariableID:118:1172",
+        "VariableID:118:1173",
+        "VariableID:118:1174",
+        "VariableID:118:1175",
+        "VariableID:118:1176",
+        "VariableID:118:1177",
+        "VariableID:118:1178",
+        "VariableID:118:1179",
+        "VariableID:118:1180",
+        "VariableID:118:1181",
+        "VariableID:118:1182",
+        "VariableID:118:1183",
+        "VariableID:118:1184",
+        "VariableID:118:1185",
+        "VariableID:118:1186",
+        "VariableID:118:1187",
+        "VariableID:118:1188",
+        "VariableID:118:1189",
+        "VariableID:118:1190",
+        "VariableID:118:1191",
+        "VariableID:118:1192",
+        "VariableID:118:1193",
+        "VariableID:118:1194",
+        "VariableID:118:1195",
+        "VariableID:118:1196",
+        "VariableID:225:970",
+        "VariableID:228:972",
+        "VariableID:118:1197",
+        "VariableID:118:1198",
+        "VariableID:118:1199",
+        "VariableID:118:1200",
+        "VariableID:118:1201",
+        "VariableID:118:1202",
+        "VariableID:118:1203",
+        "VariableID:118:1204",
+        "VariableID:118:1205",
+        "VariableID:118:1206",
+        "VariableID:118:1207",
+        "VariableID:118:1208",
+        "VariableID:118:1209",
+        "VariableID:118:1210",
+        "VariableID:118:1211",
+        "VariableID:118:1212",
+        "VariableID:118:1213",
+        "VariableID:118:1214",
+        "VariableID:118:1215",
+        "VariableID:118:1216",
+        "VariableID:118:1217",
+        "VariableID:118:1218",
+        "VariableID:118:1219",
+        "VariableID:118:1220",
+        "VariableID:118:1221",
+        "VariableID:118:1222",
+        "VariableID:118:1223",
+        "VariableID:118:1224",
+        "VariableID:118:1225",
+        "VariableID:118:1226",
+        "VariableID:118:1227",
+        "VariableID:118:1228",
+        "VariableID:131:2148"
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:118:972",
+      "name": "neutral/0",
+      "description": "",
+      "key": "4059017f0d6e787d7986b4d102bf37626ca96c01",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:973",
+      "name": "neutral/50",
+      "description": "",
+      "key": "256a7679db2d72c99e00686e674023931fd9a594",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9607999920845032,
+          "g": 0.9685999751091003,
+          "b": 0.9685999751091003,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:974",
+      "name": "neutral/100",
+      "description": "",
+      "key": "3239eb40ae8702b1b6d3a3d2cf0c7fefef6df56b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9333000183105469,
+          "g": 0.9490000009536743,
+          "b": 0.9490000009536743,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:975",
+      "name": "neutral/200",
+      "description": "",
+      "key": "684fdb175474d815434166bb33f11e8eb5a7a290",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8744999766349792,
+          "g": 0.9020000100135803,
+          "b": 0.9020000100135803,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:976",
+      "name": "neutral/300",
+      "description": "",
+      "key": "eb3e1cd7fe38552db8f908e1fd64b9fa77524fb3",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8156999945640564,
+          "g": 0.8510000109672546,
+          "b": 0.8510000109672546,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:977",
+      "name": "neutral/400",
+      "description": "",
+      "key": "69f40db48b39cf93ebd86abbeda797bdd6aa2f64",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.713699996471405,
+          "g": 0.7490000128746033,
+          "b": 0.7490000128746033,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:978",
+      "name": "neutral/500",
+      "description": "",
+      "key": "229bd57bdba0c6b9326537d6cfa2b0a4bb53f79f",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.6313999891281128,
+          "g": 0.6705999970436096,
+          "b": 0.6705999970436096,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:979",
+      "name": "neutral/600",
+      "description": "",
+      "key": "64fc71d09e57bafda3f07eee422c2959474f3f5b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.5098000168800354,
+          "g": 0.5450999736785889,
+          "b": 0.5490000247955322,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:980",
+      "name": "neutral/700",
+      "description": "",
+      "key": "48df16f69add3856dadfae5332111f9fd066f9f3",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.3765000104904175,
+          "g": 0.41179999709129333,
+          "b": 0.41179999709129333,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:981",
+      "name": "neutral/800",
+      "description": "",
+      "key": "174805418249ba40001cc7f08b6277618c412706",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.22750000655651093,
+          "g": 0.25099998712539673,
+          "b": 0.25099998712539673,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:982",
+      "name": "neutral/900",
+      "description": "",
+      "key": "11b8c39975f9b93d69d41b3dfa7e4ca0101cc425",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.03920000046491623,
+          "g": 0.0471000000834465,
+          "b": 0.06669999659061432,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:983",
+      "name": "brand/100",
+      "description": "",
+      "key": "2bad6d86a159517e7ad158cb1f9e011324ee1f4d",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9333000183105469,
+          "g": 0.9843000173568726,
+          "b": 0.9843000173568726,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:984",
+      "name": "brand/200",
+      "description": "",
+      "key": "0f3966a554120e756f2655766a20b590153bef3a",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8039000034332275,
+          "g": 0.9490000009536743,
+          "b": 0.9569000005722046,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:985",
+      "name": "brand/300",
+      "description": "",
+      "key": "448fda406713bb5a4e4ebc885c3fdc4dc7f5627d",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.6862999796867371,
+          "g": 0.9215999841690063,
+          "b": 0.9333000183105469,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:986",
+      "name": "brand/400",
+      "description": "",
+      "key": "3e4c76211df823bd0d3475a9bb78984755eef46d",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.5529000163078308,
+          "g": 0.8863000273704529,
+          "b": 0.9059000015258789,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:987",
+      "name": "brand/500",
+      "description": "",
+      "key": "a67bc0d770689168341a81f78ce4ee975046f824",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.4235000014305115,
+          "g": 0.8549000024795532,
+          "b": 0.8784000277519226,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:988",
+      "name": "brand/600",
+      "description": "",
+      "key": "363cd30fec28988c540521e498fa36055024dd63",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.3059000074863434,
+          "g": 0.8234999775886536,
+          "b": 0.8510000109672546,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:989",
+      "name": "brand/700",
+      "description": "",
+      "key": "7f22d6d5da2021d33cd70121efcba29a44d6ade3",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.17649999260902405,
+          "g": 0.800000011920929,
+          "b": 0.8274999856948853,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:990",
+      "name": "brand/800",
+      "description": "",
+      "key": "340b7f309e49b188afb23197a113775e6d5f72ad",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.1137000024318695,
+          "g": 0.5216000080108643,
+          "b": 0.5450999736785889,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:991",
+      "name": "brand/900",
+      "description": "",
+      "key": "97c1df669396609e6623fe094bad26f615267cd1",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.05490000173449516,
+          "g": 0.25099998712539673,
+          "b": 0.26269999146461487,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:992",
+      "name": "info/100",
+      "description": "",
+      "key": "0264232ef9d0e79e79216b1003f5fca5d68ff6f1",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9333000183105469,
+          "g": 0.9569000005722046,
+          "b": 0.9843000173568726,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:993",
+      "name": "info/200",
+      "description": "",
+      "key": "86452bad48cdc2e651e6f232c8c44c356959c487",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8039000034332275,
+          "g": 0.8744999766349792,
+          "b": 0.9569000005722046,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:994",
+      "name": "info/300",
+      "description": "",
+      "key": "6d33f47d61d6761b929549eb6b19329b472d33cc",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.6862999796867371,
+          "g": 0.800000011920929,
+          "b": 0.9333000183105469,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:995",
+      "name": "info/400",
+      "description": "",
+      "key": "50cccc60d6dad002e044ac6ca67b93fc740ee011",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.5529000163078308,
+          "g": 0.7175999879837036,
+          "b": 0.9059000015258789,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:996",
+      "name": "info/500",
+      "description": "",
+      "key": "fc6575f5241da55f9ff4c7ecd9d3dd1b7b599c35",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.4235000014305115,
+          "g": 0.6352999806404114,
+          "b": 0.8784000277519226,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:997",
+      "name": "info/600",
+      "description": "",
+      "key": "59f0be7e889239135d752b1f85d31b3225dfbba5",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.3059000074863434,
+          "g": 0.5608000159263611,
+          "b": 0.8549000024795532,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:998",
+      "name": "info/700",
+      "description": "",
+      "key": "e59c1fb68da54f3a905416fb9f376df0f8863eb5",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.17649999260902405,
+          "g": 0.47839999198913574,
+          "b": 0.8234999775886536,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:999",
+      "name": "info/800",
+      "description": "",
+      "key": "8811e44a9c0bd5a9c82124b950bdbc3f5db0819e",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.1137000024318695,
+          "g": 0.3176000118255615,
+          "b": 0.5450999736785889,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1000",
+      "name": "info/900",
+      "description": "",
+      "key": "56347ac0c82d3aa82d15161d46d4a1b47199f45b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.05490000173449516,
+          "g": 0.15289999544620514,
+          "b": 0.26269999146461487,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1001",
+      "name": "success/100",
+      "description": "",
+      "key": "85a25027f6f7a8ef5b0d8409e1447709a8b8b83a",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9333000183105469,
+          "g": 0.9843000173568726,
+          "b": 0.9528999924659729,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1002",
+      "name": "success/200",
+      "description": "",
+      "key": "d890f5a92bae53bda45f5a0382fe10532af68d71",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8039000034332275,
+          "g": 0.9569000005722046,
+          "b": 0.8431000113487244,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1003",
+      "name": "success/300",
+      "description": "",
+      "key": "4bbc9148494f4bf5f1d5f7b130de2d396fcb3c15",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.6862999796867371,
+          "g": 0.9333000183105469,
+          "b": 0.7411999702453613,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1004",
+      "name": "success/400",
+      "description": "",
+      "key": "81bbceb67235c4740e2d4112ce82740a85c8e4af",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.5529000163078308,
+          "g": 0.9059000015258789,
+          "b": 0.6352999806404114,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1005",
+      "name": "success/500",
+      "description": "",
+      "key": "11dbd4b5d32f977e78ebe888c7d388d26f0a18f2",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.4235000014305115,
+          "g": 0.8784000277519226,
+          "b": 0.53329998254776,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1006",
+      "name": "success/600",
+      "description": "",
+      "key": "decbeee8a8b550a5cf11a1189095a430d4b44a16",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.3059000074863434,
+          "g": 0.8549000024795532,
+          "b": 0.4431000053882599,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1007",
+      "name": "success/700",
+      "description": "",
+      "key": "fdb2331ba8c91bd906b922eb8dfbd11a538e9f53",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.17649999260902405,
+          "g": 0.8274999856948853,
+          "b": 0.34119999408721924,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1008",
+      "name": "success/800",
+      "description": "",
+      "key": "67a68c234ce9f89bda5fa888157db66239f2b4e3",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.1137000024318695,
+          "g": 0.5450999736785889,
+          "b": 0.19220000505447388,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1009",
+      "name": "success/900",
+      "description": "",
+      "key": "5e27f298ff0671eec87bbe2fbe2f819a12988b91",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.05490000173449516,
+          "g": 0.26269999146461487,
+          "b": 0.09019999951124191,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1010",
+      "name": "warning/100",
+      "description": "",
+      "key": "40a5dc2996bb03d993e2049adddaedc3862a7331",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9843000173568726,
+          "g": 0.9725000262260437,
+          "b": 0.9333000183105469,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1011",
+      "name": "warning/200",
+      "description": "",
+      "key": "1668f44bfdc5a93818344a8859cc86a7bb512b75",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9569000005722046,
+          "g": 0.9175999760627747,
+          "b": 0.8039000034332275,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1012",
+      "name": "warning/300",
+      "description": "",
+      "key": "2de7063cf996b64e66a27c6c2e56cb55bf7e59ea",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9333000183105469,
+          "g": 0.8705999851226807,
+          "b": 0.6862999796867371,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1013",
+      "name": "warning/400",
+      "description": "",
+      "key": "cf4330e70a519c6b1737207ed4a7c5ca926161bb",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9059000015258789,
+          "g": 0.819599986076355,
+          "b": 0.5529000163078308,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1014",
+      "name": "warning/500",
+      "description": "",
+      "key": "a6ba022784f720ba083efe9228a6728e55b43edd",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8784000277519226,
+          "g": 0.7646999955177307,
+          "b": 0.4235000014305115,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1015",
+      "name": "warning/600",
+      "description": "",
+      "key": "0c6c5153bb5ce03309c4debc5d3fc25227c531cf",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8549000024795532,
+          "g": 0.7175999879837036,
+          "b": 0.3059000074863434,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1016",
+      "name": "warning/700",
+      "description": "",
+      "key": "fc8320c8464daa474d751878a85d789743219d43",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8234999775886536,
+          "g": 0.6626999974250793,
+          "b": 0.17649999260902405,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1017",
+      "name": "warning/800",
+      "description": "",
+      "key": "8ad8d7717d9a0f1136dc5e27be0b9db40de03d11",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.5450999736785889,
+          "g": 0.43529999256134033,
+          "b": 0.1137000024318695,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1018",
+      "name": "warning/900",
+      "description": "",
+      "key": "a7a004e62b2b303034e0647919364bba12b72a1e",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.26269999146461487,
+          "g": 0.2117999941110611,
+          "b": 0.05490000173449516,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1019",
+      "name": "danger/100",
+      "description": "",
+      "key": "a54199b74c813663b115a50aa98458aaa5f21317",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9843000173568726,
+          "g": 0.9528999924659729,
+          "b": 0.9333000183105469,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1020",
+      "name": "danger/200",
+      "description": "",
+      "key": "77bef7d4ca9be829eccc9ff19010867f011f2946",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9569000005722046,
+          "g": 0.8274999856948853,
+          "b": 0.8039000034332275,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1021",
+      "name": "danger/300",
+      "description": "",
+      "key": "8f2d5d12c92539d970a41bed6056ebe27c99880c",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9333000183105469,
+          "g": 0.7293999791145325,
+          "b": 0.6862999796867371,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1022",
+      "name": "danger/400",
+      "description": "",
+      "key": "99bad2b587b2e9d74572cb05c41e5d3e2e6b195d",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.9059000015258789,
+          "g": 0.6157000064849854,
+          "b": 0.5529000163078308,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1023",
+      "name": "danger/500",
+      "description": "",
+      "key": "624277c9ecbff2abef3f5eea59d1f011d5eb6182",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8784000277519226,
+          "g": 0.5019999742507935,
+          "b": 0.4235000014305115,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1024",
+      "name": "danger/600",
+      "description": "",
+      "key": "b9f820c852ce42fbc146caf8fecff08e86188ca6",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8549000024795532,
+          "g": 0.4000000059604645,
+          "b": 0.3059000074863434,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1025",
+      "name": "danger/700",
+      "description": "",
+      "key": "e3a84111760db37b747462e7b46546a4371ac987",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.8274999856948853,
+          "g": 0.28630000352859497,
+          "b": 0.17649999260902405,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1026",
+      "name": "danger/800",
+      "description": "",
+      "key": "eb3107966a06f398be7dc1cdcbb8471c5b6c0cb2",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.5450999736785889,
+          "g": 0.1881999969482422,
+          "b": 0.1137000024318695,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1027",
+      "name": "danger/900",
+      "description": "",
+      "key": "0e6d39ac341db47e27b8f9b1e9fae21483fc996b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0.26269999146461487,
+          "g": 0.09019999951124191,
+          "b": 0.05490000173449516,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1028",
+      "name": "alpha/black/8",
+      "description": "",
+      "key": "e432128278b72d058519ca7343d4e4d23359ce0b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.07999999821186066
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1029",
+      "name": "alpha/black/16",
+      "description": "",
+      "key": "9cff7f0bd3c2effa36acb262a89e700b74ca3872",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.1599999964237213
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1030",
+      "name": "alpha/black/40",
+      "description": "",
+      "key": "9f1235d3cb8aeda44da520ef8fecca0ce6c509df",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.4000000059604645
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1031",
+      "name": "alpha/black/56",
+      "description": "",
+      "key": "34a603fd5c0eff739574fea9dbb5357cc2700bfe",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.5600000023841858
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1032",
+      "name": "alpha/white/0",
+      "description": "",
+      "key": "460e7e27ebb87c1fd8803702c75cec8f2f8c280d",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1033",
+      "name": "alpha/white/16",
+      "description": "",
+      "key": "140a9245a6bbf0f371aa8d2118809019fc01defe",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.1599999964237213
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1034",
+      "name": "alpha/white/80",
+      "description": "",
+      "key": "1197db64fb49be4e51450584cefaed01cfd248de",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.800000011920929
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1035",
+      "name": "dim/0-5",
+      "description": "",
+      "key": "4a6da5c4b41bd74c5c6df0ded8fd527b2ffdea0b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 0.5
+      }
+    },
+    {
+      "id": "VariableID:118:1036",
+      "name": "dim/1",
+      "description": "",
+      "key": "a5c4f696d677619eb6dc27e281f5a84e298b29bb",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 1
+      }
+    },
+    {
+      "id": "VariableID:118:1037",
+      "name": "dim/2",
+      "description": "",
+      "key": "69c9686f992424c067322830cb22fc58857a8b18",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 2
+      }
+    },
+    {
+      "id": "VariableID:118:1038",
+      "name": "dim/4",
+      "description": "",
+      "key": "1257bdb20c19ef658bc1b13c2bef9ef9117d0991",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 4
+      }
+    },
+    {
+      "id": "VariableID:118:1039",
+      "name": "dim/6",
+      "description": "",
+      "key": "0e0a97d787c728de2885f7fc8a0f800ec35427ae",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 6
+      }
+    },
+    {
+      "id": "VariableID:118:1040",
+      "name": "dim/8",
+      "description": "",
+      "key": "21581a1deeea2946549c9b2859ffa1d3f0a5d187",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 8
+      }
+    },
+    {
+      "id": "VariableID:118:1041",
+      "name": "dim/12",
+      "description": "",
+      "key": "3e050927edd5cd671398380c2f515aab1a0a5eff",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 12
+      }
+    },
+    {
+      "id": "VariableID:118:1042",
+      "name": "dim/16",
+      "description": "",
+      "key": "43b1aa12bf1c5bdd67b15dbb25deeffd0cbe2890",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 16
+      }
+    },
+    {
+      "id": "VariableID:118:1043",
+      "name": "dim/20",
+      "description": "",
+      "key": "37ff338cf562d79a19090804bac71bc756d92aa2",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 20
+      }
+    },
+    {
+      "id": "VariableID:118:1044",
+      "name": "dim/24",
+      "description": "",
+      "key": "807a5a0596a61c52483ee2b011407bfa78658319",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 24
+      }
+    },
+    {
+      "id": "VariableID:118:1045",
+      "name": "dim/32",
+      "description": "",
+      "key": "bbad1f1b0100faea8ebb83f2433b7adb081e94d3",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 32
+      }
+    },
+    {
+      "id": "VariableID:118:1046",
+      "name": "dim/34",
+      "description": "",
+      "key": "3ab783354b11b505bbe41e09cd4d9ac11993cf6a",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 34
+      }
+    },
+    {
+      "id": "VariableID:118:1047",
+      "name": "dim/40",
+      "description": "",
+      "key": "43382b9342b454e575e037bc4d83d12809eabf57",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 40
+      }
+    },
+    {
+      "id": "VariableID:118:1048",
+      "name": "dim/44",
+      "description": "",
+      "key": "0c45a65a8fa06097681bda9158745615033bfcf0",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 44
+      }
+    },
+    {
+      "id": "VariableID:118:1049",
+      "name": "dim/48",
+      "description": "",
+      "key": "e14459a91894b0811e7cf8b125feab5818fed2f0",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 48
+      }
+    },
+    {
+      "id": "VariableID:118:1050",
+      "name": "dim/56",
+      "description": "",
+      "key": "72f934d50d35166e098a9cd6163e83bb061464b8",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 56
+      }
+    },
+    {
+      "id": "VariableID:118:1051",
+      "name": "dim/60",
+      "description": "",
+      "key": "cc95120ae3cfcecf68d5712bb00a2552e9f21685",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 60
+      }
+    },
+    {
+      "id": "VariableID:118:1052",
+      "name": "dim/64",
+      "description": "",
+      "key": "750aeab25efa9ad986c295b4e8124d1ddb838083",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 64
+      }
+    },
+    {
+      "id": "VariableID:118:1053",
+      "name": "dim/80",
+      "description": "",
+      "key": "b287e7553b0d978fef86b048197a584afcebf3ea",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 80
+      }
+    },
+    {
+      "id": "VariableID:118:1054",
+      "name": "dim/120",
+      "description": "",
+      "key": "5eeddab2a7b0d0ed880ad1e401f9423a093fa51a",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 120
+      }
+    },
+    {
+      "id": "VariableID:118:1055",
+      "name": "dim/160",
+      "description": "",
+      "key": "bddf3997590ae0c5e94f3556cc033ef9a023cb00",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 160
+      }
+    },
+    {
+      "id": "VariableID:118:1056",
+      "name": "dim/999",
+      "description": "",
+      "key": "ed1664eca421f2d269d90c44e6ebb837f59a2ab5",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 999
+      }
+    },
+    {
+      "id": "VariableID:118:1057",
+      "name": "font/family/primary",
+      "description": "",
+      "key": "34af2e1f5281b49c1f0b605a35ddf82f10045d47",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "STRING",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": "Google Sans"
+      }
+    },
+    {
+      "id": "VariableID:118:1058",
+      "name": "font/weight/regular",
+      "description": "",
+      "key": "4da19d2e646c48d0550f4b938af7554c8607b946",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 400
+      }
+    },
+    {
+      "id": "VariableID:118:1059",
+      "name": "font/weight/medium",
+      "description": "",
+      "key": "290df5bc114580a880ffecae95c06605412d4d7a",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 500
+      }
+    },
+    {
+      "id": "VariableID:118:1060",
+      "name": "font/weight/semibold",
+      "description": "",
+      "key": "ea272740b3325621404f5774aaaa24c24cf980aa",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [
+        "FONT_WEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 600
+      }
+    },
+    {
+      "id": "VariableID:118:1061",
+      "name": "font/size/10",
+      "description": "",
+      "key": "36f24f10c6b994907079c166b5440630a9290d04",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 10
+      }
+    },
+    {
+      "id": "VariableID:118:1062",
+      "name": "font/size/11",
+      "description": "",
+      "key": "d580078a15191da2edf43bb96bab2590da9f628b",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 11
+      }
+    },
+    {
+      "id": "VariableID:118:1063",
+      "name": "font/size/12",
+      "description": "",
+      "key": "dd60a60b87da2aa8cab5bf0749588a9c42a2412f",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 12
+      }
+    },
+    {
+      "id": "VariableID:118:1064",
+      "name": "font/size/14",
+      "description": "",
+      "key": "a63d694f10219c37c52a4c97b0dba702238f63a8",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 14
+      }
+    },
+    {
+      "id": "VariableID:118:1065",
+      "name": "font/size/16",
+      "description": "",
+      "key": "91b7f15556ad26a0c702b0dd7dac5ae56a3a3882",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 16
+      }
+    },
+    {
+      "id": "VariableID:118:1066",
+      "name": "font/size/20",
+      "description": "",
+      "key": "41b380860766a74e961537e9057c64f3be92b854",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 20
+      }
+    },
+    {
+      "id": "VariableID:118:1067",
+      "name": "font/size/24",
+      "description": "",
+      "key": "622fa20966f159a2b6a96dcdc2387550d99e698e",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 24
+      }
+    },
+    {
+      "id": "VariableID:118:1068",
+      "name": "font/lineheight/14",
+      "description": "",
+      "key": "c9e0f21b28b1a50fc0abf508230de42df6351a90",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 14
+      }
+    },
+    {
+      "id": "VariableID:118:1069",
+      "name": "font/lineheight/16",
+      "description": "",
+      "key": "bb446f3a2d738454d4efaa51900faaaa39f06199",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 16
+      }
+    },
+    {
+      "id": "VariableID:118:1070",
+      "name": "font/lineheight/20",
+      "description": "",
+      "key": "fa0369aa3d0bd9bae8d77141f0a874f73da8ea67",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 20
+      }
+    },
+    {
+      "id": "VariableID:118:1071",
+      "name": "font/lineheight/24",
+      "description": "",
+      "key": "d89e08396e77708f4385958c24831eb8c4f6d721",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 24
+      }
+    },
+    {
+      "id": "VariableID:118:1072",
+      "name": "font/lineheight/28",
+      "description": "",
+      "key": "9e6a254d290ac7c1b43f9874bf784e701ed79cb6",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 28
+      }
+    },
+    {
+      "id": "VariableID:118:1073",
+      "name": "font/lineheight/32",
+      "description": "",
+      "key": "66e3aa7dcdcbc29bdaefe4a88838aabe8fa4040d",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 32
+      }
+    },
+    {
+      "id": "VariableID:118:1074",
+      "name": "text/primary",
+      "description": "Dùng bởi: chữ chính của mọi component",
+      "key": "59b82c3b0282b544e6bf4a96c92a1ad8faa192ff",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:973"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1075",
+      "name": "text/secondary",
+      "description": "Dùng bởi: chữ phụ, subtitle",
+      "key": "3023ce71d92117e23c3b43060b6ade6d98981573",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1076",
+      "name": "text/disabled",
+      "description": "Dùng bởi: chữ ở state disabled",
+      "key": "4386100fc0d5b4b25f1e779194b010eef9fc2610",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1077",
+      "name": "text/brand",
+      "description": "Dùng bởi: Link, TabsItem selected, TabBarItem selected",
+      "key": "c271825d51fe6d509c8cb5de8ae9473afa948776",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:989"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1078",
+      "name": "text/error",
+      "description": "Dùng bởi: dòng lỗi của field, SelectableCard error",
+      "key": "dc61ad3c12807d939b9ad687ee191ff6f79faa4d",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1026"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1079",
+      "name": "text/on-brand",
+      "description": "Dùng bởi: chữ trên action/primary và action/danger",
+      "key": "5396775d26a4c21fda1c6174c737dbd307678053",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1080",
+      "name": "text/on-inverse",
+      "description": "Dùng bởi: Tooltip, Toast",
+      "key": "0bfa172c8edf67fedc4ab3f97060949e6214700d",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1081",
+      "name": "text/on-feedback",
+      "description": "Dùng bởi: Banner emphasis strong",
+      "key": "35f3434191a044f3c2322280907a2864c021141e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1082",
+      "name": "text/on-light",
+      "description": "Dùng bởi: StatusBar tone dark",
+      "key": "bd3e6fcc8301a7e77e50b79366aea8b6299411c3",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1083",
+      "name": "text/on-dark",
+      "description": "Dùng bởi: StatusBar tone light",
+      "key": "842e481b434d1f43593551134aa3563336468c5e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1084",
+      "name": "icon/default",
+      "description": "Dùng bởi: icon mặc định",
+      "key": "6fe4cee82a7be45a8868d01ed64191e0fc444023",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:975"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1085",
+      "name": "icon/secondary",
+      "description": "Dùng bởi: icon phụ",
+      "key": "a1d002a43d804b18d927498e1a90190ae5cffb35",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1086",
+      "name": "icon/disabled",
+      "description": "Dùng bởi: icon ở state disabled",
+      "key": "64c34172ec1b25e37ccca336b542edc887651a20",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1087",
+      "name": "icon/brand",
+      "description": "Dùng bởi: TabBarItem selected, Chip selected",
+      "key": "8c8561b7bc38f1bd81c7c7f51568ce1d5e178259",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1088",
+      "name": "icon/on-brand",
+      "description": "Dùng bởi: icon trong Button",
+      "key": "56cda5ffe98d8b4865a159c443bb6d26ec52bd5c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1089",
+      "name": "icon/on-inverse",
+      "description": "Dùng bởi: Tooltip, Toast",
+      "key": "f157e89ad043ec339fa9d9c7872f41520963f10f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1090",
+      "name": "icon/on-marker",
+      "description": "Dùng bởi: MarkerShell",
+      "key": "485df90472adeecf68f523ba37a9db115f5d4179",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1091",
+      "name": "surface/default",
+      "description": "Dùng bởi: Card, SheetShell, DialogShell, TopBar, TabBar",
+      "key": "295688ac3d35ad5be8014d0c9956df8f10e54773",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1092",
+      "name": "surface/raised",
+      "description": "Dùng bởi: Card elevation raised",
+      "key": "2eb9ff3e275da095537d95b2a816f2e6e6c86a0b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:973"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1093",
+      "name": "surface/selected",
+      "description": "Dùng bởi: SelectableCard, ListItem, Chip khi selected",
+      "key": "39794f28413838c7d3e36962b13958446f201435",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:983"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1094",
+      "name": "surface/field",
+      "description": "Dùng bởi: TextField, SearchField, LocationField, Select",
+      "key": "1cc167e796627c621954937f2b82b6c33a3da15b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:973"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1095",
+      "name": "surface/inverse",
+      "description": "Dùng bởi: Tooltip, Toast",
+      "key": "7a0fa3d07d0af932a79210d2275fb354a15ea43c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1096",
+      "name": "surface/disabled",
+      "description": "Dùng bởi: Button và field ở state disabled",
+      "key": "bc65f746e17526d90efe4699aee166b4af4afc1a",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1097",
+      "name": "surface/transparent",
+      "description": "Dùng bởi: TopBar screen-overlay",
+      "key": "2a467e22dee283f9f42a4e5c28ae36d6e1e0bad4",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1032"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1032"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1098",
+      "name": "border/default",
+      "description": "Dùng bởi: viền Card và khối trang trí (không dùng cho field)",
+      "key": "c1854f1a3195f09793987e82501a845dbb9d500b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:976"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:980"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1099",
+      "name": "border/subtle",
+      "description": "Dùng bởi: Divider, ListItem, TopBar scrolled",
+      "key": "20eb9a502ffd9859aa8f5547d757d70fc28398a6",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:975"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1100",
+      "name": "border/focus",
+      "description": "Dùng bởi: field focused",
+      "key": "b220e6311b718b34b7450958251cf5c9462ecaae",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1101",
+      "name": "border/selected",
+      "description": "Dùng bởi: SelectableCard, Chip khi selected",
+      "key": "989679f0ff942920bec0be16fda6bc3c6de8167f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:989"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:989"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1102",
+      "name": "border/error",
+      "description": "Dùng bởi: field, SelectableCard ở state error",
+      "key": "91409506b0c40d288269b30386bf7d9dec7abb9c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1103",
+      "name": "border/disabled",
+      "description": "Dùng bởi: field ở state disabled",
+      "key": "35810995a669249d2edfbcf93fa02d7d191a9957",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:975"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1104",
+      "name": "border/on-marker",
+      "description": "Dùng bởi: viền MarkerShell",
+      "key": "f02e833876c4d4f23b118dc7cf8c7658aba318a1",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1105",
+      "name": "state/pressed",
+      "description": "Dùng bởi: lớp phủ state pressed",
+      "key": "acd15f65dc39838300615cefeec9e5420553d041",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1028"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1033"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1106",
+      "name": "scrim/subtle",
+      "description": "Dùng bởi: Overlay strength subtle",
+      "key": "eccc7a144361b506e353d5a783f2e52cf61c37de",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1029"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1029"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1107",
+      "name": "scrim/default",
+      "description": "Dùng bởi: Overlay strength default",
+      "key": "1a9a08f0be2448550ac63cb33f24e8aba0d38c5e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1030"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1030"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1108",
+      "name": "scrim/strong",
+      "description": "Dùng bởi: Overlay strength strong",
+      "key": "a1d6b6068565aaf0bde2069267f578f22f79f050",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1031"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1031"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1109",
+      "name": "action/primary/bg",
+      "description": "Dùng bởi: Button và IconButton role primary",
+      "key": "6c8755d44332305ac9ef2860e5a57e4f3ae6673f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:989"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:989"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1110",
+      "name": "action/primary/bg-pressed",
+      "description": "Dùng bởi: Button và IconButton role primary, pressed",
+      "key": "e99cadb36afa21445e9025a6890fa7a2e9d9ed38",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1111",
+      "name": "action/secondary/border",
+      "description": "Dùng bởi: Button và IconButton role secondary",
+      "key": "fefc75482828ec744ad056acc3d14b38de35261f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1112",
+      "name": "action/secondary/bg-pressed",
+      "description": "Dùng bởi: Button và IconButton role secondary, pressed",
+      "key": "74e5900e147f07e3e9d02a1a8768d55e83d4ce2e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:983"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1113",
+      "name": "action/tertiary/bg-pressed",
+      "description": "Dùng bởi: Button và IconButton role tertiary, pressed",
+      "key": "df68aed72c3707713adc4b58cf02f8d60e57fde7",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:983"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1114",
+      "name": "action/danger/bg",
+      "description": "Dùng bởi: Button role danger",
+      "key": "71709fdddc75eaf365258cf2c7be7654a31dba14",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1025"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1115",
+      "name": "action/danger/bg-pressed",
+      "description": "Dùng bởi: Button role danger, pressed",
+      "key": "3616306bde34dfa1a7bc583c124646fab0196fe9",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1026"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1023"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1116",
+      "name": "action/overlay/bg",
+      "description": "Dùng bởi: IconButton role overlay",
+      "key": "a6fccee6a29130427e776447609b1b1e1507b2a8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1030"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1030"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1117",
+      "name": "action/overlay/bg-pressed",
+      "description": "Dùng bởi: IconButton role overlay, pressed",
+      "key": "5f9134b162958a8d33690f745744bd2d3ef1e279",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1031"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1031"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1118",
+      "name": "control/on",
+      "description": "Dùng bởi: Toggle on, Checkbox checked, Radio selected",
+      "key": "ded57c223c2cbe96aa456474dc8099fa51dac38b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1119",
+      "name": "control/off",
+      "description": "Dùng bởi: Toggle off",
+      "key": "93efbfaecac81bcd4aed50ba06424edb117a0842",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1120",
+      "name": "control/thumb",
+      "description": "Dùng bởi: núm Toggle",
+      "key": "d2d946b52a3e775dac046dda0ff2f88c2081db1e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1121",
+      "name": "control/border",
+      "description": "Dùng bởi: viền Checkbox và Radio chưa chọn; viền TextField, SearchField, LocationField, Select",
+      "key": "d8bcd6a0983abe363d6a9b12a5db4f27a2c3d853",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1122",
+      "name": "feedback/info/subtle",
+      "description": "Dùng bởi: Banner subtle, InlineMessage, Badge role info",
+      "key": "d70af75ff635a49da084fc250cefe728e9233236",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:992"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1000"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1123",
+      "name": "feedback/info/strong",
+      "description": "Dùng bởi: Banner strong",
+      "key": "b52dc60f950d41cab7125855cc39801702f44e87",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:998"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:997"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1124",
+      "name": "feedback/info/border",
+      "description": "Dùng bởi: viền Banner",
+      "key": "7c55beae43310468677e3e5954a1b3e421a23b05",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:994"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:999"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1125",
+      "name": "feedback/info/text",
+      "description": "Dùng bởi: chữ Banner, InlineMessage, Badge",
+      "key": "a9ef2dec97d7193ac0d4fb6cd9aa319be8e8cdf8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:999"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:997"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1126",
+      "name": "feedback/info/icon",
+      "description": "Dùng bởi: icon Banner, InlineMessage, Badge",
+      "key": "6d14b05a75001f9b05ac29ffe24907057c385396",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:997"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:998"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1127",
+      "name": "feedback/success/subtle",
+      "description": "Dùng bởi: Banner subtle, InlineMessage, Badge role success",
+      "key": "3d8098d8599a6c25e7d40828bc95ecdd19c9717d",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1001"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1009"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1128",
+      "name": "feedback/success/strong",
+      "description": "Dùng bởi: Banner strong",
+      "key": "e263b53ea7bee6ef14c612aa46ce61a229b1b75b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1007"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1007"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1129",
+      "name": "feedback/success/border",
+      "description": "Dùng bởi: viền Banner",
+      "key": "25d5f47f11d14b28514b7c1249653ba86d1579bb",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1003"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1008"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1130",
+      "name": "feedback/success/text",
+      "description": "Dùng bởi: chữ Banner, InlineMessage, Badge",
+      "key": "144ba660efa52b149d736ff4db3ca62a4d62d6e8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1008"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1007"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1131",
+      "name": "feedback/success/icon",
+      "description": "Dùng bởi: icon Banner, InlineMessage, Badge",
+      "key": "51f743216f81bc7e72be77515bf47b7f7be67e2c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1008"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1007"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1132",
+      "name": "feedback/warning/subtle",
+      "description": "Dùng bởi: Banner subtle, InlineMessage, Badge role warning",
+      "key": "a9ddeea4c10ace7697d1d72613590f21728bfd88",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1010"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1018"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1133",
+      "name": "feedback/warning/strong",
+      "description": "Dùng bởi: Banner strong",
+      "key": "8476c5866022122dc8cb635a5496c1bd08f1b71e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1016"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1016"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1134",
+      "name": "feedback/warning/border",
+      "description": "Dùng bởi: viền Banner",
+      "key": "5f895294d7f505b545c0a11d009ae3158194c8f6",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1012"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1017"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1135",
+      "name": "feedback/warning/text",
+      "description": "Dùng bởi: chữ Banner, InlineMessage, Badge",
+      "key": "4dad2be011c534191f23e9382fe787b32aa95451",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1017"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1016"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1136",
+      "name": "feedback/warning/icon",
+      "description": "Dùng bởi: icon Banner, InlineMessage, Badge",
+      "key": "c85e7e26e828e24cab67eac94342b3fed1b93c04",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1017"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1016"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1137",
+      "name": "feedback/danger/subtle",
+      "description": "Dùng bởi: Banner subtle, InlineMessage, Badge role danger",
+      "key": "fddeece703a8132c84ec4cbedf7051ec828b4657",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1019"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1027"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1138",
+      "name": "feedback/danger/strong",
+      "description": "Dùng bởi: Banner strong, badge số của TabBarItem",
+      "key": "b21babcedf9829ed8ed4d2fe369b189de6f638c4",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1025"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1139",
+      "name": "feedback/danger/border",
+      "description": "Dùng bởi: viền Banner",
+      "key": "93d03357cd68c165b0804a380393e03045a3b33f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1021"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1026"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1140",
+      "name": "feedback/danger/text",
+      "description": "Dùng bởi: chữ Banner, InlineMessage, Badge",
+      "key": "fbf53482aff4af7399c3f95cf4e9bbd3c63629f3",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1025"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1023"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1141",
+      "name": "feedback/danger/icon",
+      "description": "Dùng bởi: icon Banner, InlineMessage, Badge",
+      "key": "a00dd587f51588d04301b17178d1e20516eadf43",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1025"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1142",
+      "name": "badge/neutral/bg",
+      "description": "Dùng bởi: Badge role neutral",
+      "key": "161707f0bf9869c409670942ecc98dba0405ce37",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:980"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1143",
+      "name": "badge/neutral/text",
+      "description": "Dùng bởi: Badge role neutral",
+      "key": "bc468eb4ce2c96822460b312722524d04c9586dc",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:980"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1144",
+      "name": "badge/brand/bg",
+      "description": "Dùng bởi: Badge role brand",
+      "key": "aa7d27c61d6d448f96911dab8d46119339daf112",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:983"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1145",
+      "name": "badge/brand/text",
+      "description": "Dùng bởi: Badge role brand",
+      "key": "41f1446984c496a09d1bb382138022bf0d169d24",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:989"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1146",
+      "name": "avatar/bg",
+      "description": "Dùng bởi: Avatar",
+      "key": "661bb5620d06063089cc2a372c406619d02e2d19",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:975"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:980"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1147",
+      "name": "avatar/text",
+      "description": "Dùng bởi: Avatar type initials",
+      "key": "aa7a571a5e96b6cdb038e938fa8148b5de594d03",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1148",
+      "name": "pagecontrol/active",
+      "description": "Dùng bởi: PageControlDot active",
+      "key": "6e16ed96f2d6716b193624d2197b2bb518af77ed",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1149",
+      "name": "pagecontrol/inactive",
+      "description": "Dùng bởi: PageControlDot inactive",
+      "key": "4cbca29d534c7f383ccdb5e3d004a0d5aedb2d85",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:976"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1150",
+      "name": "homeindicator/dark",
+      "description": "Dùng bởi: HomeIndicator tone dark",
+      "key": "7d878e36ea1f7eac6dbf82b2d541df926a54b35e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1151",
+      "name": "homeindicator/light",
+      "description": "Dùng bởi: HomeIndicator tone light",
+      "key": "5a820b8ee36a84b3cf03b6de5e059016e25f7301",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1152",
+      "name": "divider/section",
+      "description": "Dùng bởi: Divider type section",
+      "key": "46a82ff4aa23ef1bc618ca5656d8aaa3724a5a79",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1153",
+      "name": "handle/default",
+      "description": "Dùng bởi: Handle tone default",
+      "key": "5fc49c880c6aa46e673cf20f4d7fea24a4f49f87",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:976"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1154",
+      "name": "handle/overlay",
+      "description": "Dùng bởi: Handle tone overlay",
+      "key": "eb2d7e17bec51fc74fc796b11cf99ca1e3002b92",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1034"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1034"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1155",
+      "name": "step/done",
+      "description": "Dùng bởi: StepIndicatorItem done",
+      "key": "0e0559e164a0a091c47f44527cfe9ee9d990c33e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1156",
+      "name": "step/current",
+      "description": "Dùng bởi: StepIndicatorItem current",
+      "key": "1aab4d2e8265391e920814769f8282c41328ca82",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:987"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1157",
+      "name": "step/upcoming",
+      "description": "Dùng bởi: StepIndicatorItem upcoming",
+      "key": "c152b77b3edb8073a96a3720710d15e6c881d92c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:976"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1158",
+      "name": "step/error",
+      "description": "Dùng bởi: StepIndicatorItem error",
+      "key": "894ee4b5fe72cfbcbdca5439ab787fc7e14aa7e8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1025"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1159",
+      "name": "step/line",
+      "description": "Dùng bởi: đường nối StepIndicator",
+      "key": "a7e786f6ac2398d7b54fa8b88be61f62ca436bfb",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:976"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1160",
+      "name": "tab/indicator",
+      "description": "Dùng bởi: đường chân TabsItem, chấm TabBarItem",
+      "key": "356ec249f8353fefea07f36bd60001c39496ed3b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1161",
+      "name": "tab/pill-selected",
+      "description": "Dùng bởi: Tabs style pill, mục selected",
+      "key": "74cc7266899d6bd35901f771d292d744c7fd9ca5",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:983"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1162",
+      "name": "spinner/default",
+      "description": "Dùng bởi: Spinner tone default",
+      "key": "603e8416c72f2ced95a0d510333a59e789175e3e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1163",
+      "name": "spinner/on-brand",
+      "description": "Dùng bởi: Spinner tone on-brand",
+      "key": "4ca49a1427e0ae89544774e9b7f47a4af7e59516",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1164",
+      "name": "skeleton/base",
+      "description": "Dùng bởi: Skeleton",
+      "key": "b47209aac005638983aa7cab6e0c6695e8375b0f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:974"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:981"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1165",
+      "name": "skeleton/highlight",
+      "description": "Dùng bởi: hiệu ứng Skeleton",
+      "key": "31c3f1ea48399fd57f9a7fdec43bbfd94f18c2a9",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:973"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:980"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1166",
+      "name": "progress/track",
+      "description": "Dùng bởi: nền ProgressBar",
+      "key": "1a3664b8a7d22d27d676557a4384f43c83a5c541",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:975"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:980"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1167",
+      "name": "progress/fill",
+      "description": "Dùng bởi: ProgressBar tone default",
+      "key": "c75fe9f977cccf5f6f10422cfd0f10cf29d8301b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1168",
+      "name": "progress/success",
+      "description": "Dùng bởi: ProgressBar tone success",
+      "key": "f04a22e8b91298bc29ee0c97d17b6c7f99bcf683",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1008"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1006"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1169",
+      "name": "progress/danger",
+      "description": "Dùng bởi: ProgressBar tone danger",
+      "key": "88a80166640411d9a04f06111d1aa695fafb1bce",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1025"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1170",
+      "name": "marker/default",
+      "description": "Dùng bởi: MarkerShell default",
+      "key": "609ffa20eaa2e0aa78e75c6be311d61e78f4937d",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1171",
+      "name": "marker/selected",
+      "description": "Dùng bởi: MarkerShell selected",
+      "key": "d90db166f60d70a08dedf6bef1f71af6c671ff12",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:990"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:987"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1172",
+      "name": "marker/dimmed",
+      "description": "Dùng bởi: MarkerShell dimmed",
+      "key": "8c116eb77e711cbf56e46ed2b2d573449eb669e8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1173",
+      "name": "pin/origin",
+      "description": "Dùng bởi: MapPin origin, marker của LocationField origin",
+      "key": "ebcdfbb1315f970965d738318576854dd69aadf4",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1174",
+      "name": "pin/destination",
+      "description": "Dùng bởi: MapPin destination, marker của LocationField destination",
+      "key": "61c1a7bb05ad218e5f13821e5b4ab58f6147eb8e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1024"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1175",
+      "name": "pin/current-location",
+      "description": "Dùng bởi: MapPin current-location",
+      "key": "f60be6f77b54ece0cda91b4d07b1d0d33bad5fdb",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:997"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:997"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1176",
+      "name": "pin/halo",
+      "description": "Dùng bởi: vòng sáng quanh MapPin current-location",
+      "key": "935e537b41818c4fe6a8a3649e023bb6395418db",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:994"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:999"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1177",
+      "name": "route/active",
+      "description": "Dùng bởi: RouteLine tuyến đang chọn",
+      "key": "4878bcf30fa381e55eef715ef5eece7e8cc971d8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1178",
+      "name": "route/inactive",
+      "description": "Dùng bởi: RouteLine tuyến không chọn",
+      "key": "dbe678defbef93507f51f85b03b507fb98f6ebb3",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:977"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:979"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1179",
+      "name": "route/casing",
+      "description": "Dùng bởi: viền ngoài RouteLine",
+      "key": "8234820fc81263f21503ec0de00e6c23af0ff296",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1180",
+      "name": "spacing/xs",
+      "description": "Dùng bởi: padding và gap của mọi component",
+      "key": "fa4a60b6c1fd8b3d608ccc0343eb0eaf1efadbc5",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1181",
+      "name": "spacing/sm",
+      "description": "Dùng bởi: padding và gap của mọi component",
+      "key": "46720a6c7c6320f3dc2b58b38ca1cd18f10f0527",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1040"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1040"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1182",
+      "name": "spacing/md",
+      "description": "Dùng bởi: padding và gap của mọi component",
+      "key": "6a5863c39501bf072349d59e2910dfcb0bdbe8ef",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1041"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1041"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1183",
+      "name": "spacing/lg",
+      "description": "Dùng bởi: padding và gap của mọi component",
+      "key": "61ed85eea73ec7128e8d6e04e1c96585503e5346",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1184",
+      "name": "spacing/xl",
+      "description": "Dùng bởi: padding và gap của mọi component",
+      "key": "98f3fcb807a0859fe460b5481556944a84129964",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1185",
+      "name": "spacing/2xl",
+      "description": "Dùng bởi: padding và gap của mọi component",
+      "key": "dc5a4dfd15ca476991ea7935d113df44ca87ae54",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1186",
+      "name": "spacing/screen/margin",
+      "description": "Dùng bởi: lề trái phải của màn hình; padding ngang nội dung SheetShell",
+      "key": "55d2df49fa4f59410846a171318e6c7036533e47",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1187",
+      "name": "spacing/screen/section",
+      "description": "Dùng bởi: khoảng cách giữa các section trên màn hình",
+      "key": "269773efc20c076e68431983a565abab8120edb6",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1188",
+      "name": "radius/sm",
+      "description": "Dùng bởi: Tooltip, Skeleton text",
+      "key": "679e18c1a6770122a96e826cf4cd6e2ecbf6ec48",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1189",
+      "name": "radius/md",
+      "description": "Dùng bởi: Card, Toast, Banner, Callout, Button, TextField, SearchField, Select",
+      "key": "f21df86b78ed7a21fbc51e54328d8f71207c6cfd",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1041"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1041"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1190",
+      "name": "radius/lg",
+      "description": "Dùng bởi: SheetShell, DialogShell",
+      "key": "357be36abf4f8ffa17cdb2610acb8f4ea1612043",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1043"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1043"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1191",
+      "name": "radius/full",
+      "description": "Dùng bởi: nút tròn, Badge, Chip, Avatar, marker, ProgressBar",
+      "key": "eae32e79cddf92f07404b4d04c42fedc0ad21f97",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1056"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1056"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1192",
+      "name": "stroke/hairline",
+      "description": "Dùng bởi: ListItem, Divider",
+      "key": "db505cb38ddb6d85987f36b720cb75b0b65681c5",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1035"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1035"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1193",
+      "name": "stroke/thin",
+      "description": "Dùng bởi: viền field, Card, SelectableCard",
+      "key": "b621d2cea7b63afaeafebf2786acc16d0bf41ca6",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1036"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1036"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1194",
+      "name": "stroke/medium",
+      "description": "Dùng bởi: viền focus và selected, đường chân Tabs, đường nối StepIndicator, viền MarkerShell",
+      "key": "f5cd081f781ef30c7fbb3daff8f661663fc9b9d6",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1037"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1037"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1195",
+      "name": "stroke/route",
+      "description": "Dùng bởi: RouteLine",
+      "key": "8fb7fdc9c0853ea8e451099ef2507b44a3d0944a",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1196",
+      "name": "stroke/route-casing",
+      "description": "Dùng bởi: viền ngoài RouteLine",
+      "key": "e7d26e70b2cfc111060cb5d69cc0521bcb86f520",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1039"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1039"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1197",
+      "name": "size/control/sm",
+      "description": "Dùng bởi: Button, IconButton, field, Select, Chip cỡ sm",
+      "key": "761600b3ee06ba92bcdd4ccb24f28731051576a5",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1198",
+      "name": "size/control/md",
+      "description": "Dùng bởi: Button, IconButton, field, Select, Chip cỡ md",
+      "key": "bc0b2cfacedacf2d1640198c67f47878638ef1e3",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1047"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1047"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1199",
+      "name": "size/control/lg",
+      "description": "Dùng bởi: Button, IconButton, field, Select cỡ lg",
+      "key": "766d741e2aab0639c00fa2336525086197a65213",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1049"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1049"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1200",
+      "name": "size/hit-area",
+      "description": "Dùng bởi: vùng bấm tối thiểu",
+      "key": "f04b68b11c71289b2972891dbb7973ea5007ef10",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1048"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1048"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1201",
+      "name": "size/icon/sm",
+      "description": "Dùng bởi: Icon",
+      "key": "447000ef8e7a1aa3984c6db229de7157599cad1f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1202",
+      "name": "size/icon/md",
+      "description": "Dùng bởi: Icon",
+      "key": "07dc4c0bbeb64b24372acf5e57ec635abdf31f2e",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1043"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1043"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1203",
+      "name": "size/icon/lg",
+      "description": "Dùng bởi: Icon",
+      "key": "df9b290d25db7f11b8583262fe9a52155b2fe48b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1204",
+      "name": "size/icon/xl",
+      "description": "Dùng bởi: Icon",
+      "key": "3e64adac16c3520a613a274f13abe05db2fb2429",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1205",
+      "name": "size/avatar/xs",
+      "description": "Dùng bởi: Avatar",
+      "key": "0ce30dfe8e71da47c395414502d0cbe7a037e889",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1206",
+      "name": "size/avatar/sm",
+      "description": "Dùng bởi: Avatar",
+      "key": "9a914be75be5441abeee2ebdb4cbdcfdd1f4b6e1",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1207",
+      "name": "size/avatar/md",
+      "description": "Dùng bởi: Avatar",
+      "key": "a15292181f7e776d41655aae6d7ab4d36355972d",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1047"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1047"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1208",
+      "name": "size/avatar/lg",
+      "description": "Dùng bởi: Avatar",
+      "key": "d85a53f7ceda3ee764c8a7c9b52a3e66adffcf2c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1050"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1050"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1209",
+      "name": "size/topbar/screen",
+      "description": "Dùng bởi: TopBar type screen",
+      "key": "af8e6ee011b6cb5d7299021965465968fb8e83d2",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1048"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1048"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1210",
+      "name": "size/topbar/sheet",
+      "description": "Dùng bởi: TopBar type sheet",
+      "key": "00e4850f10194ad3af95fa20356058cc42834f0b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1051"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1051"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1211",
+      "name": "size/home-indicator",
+      "description": "Dùng bởi: HomeIndicator",
+      "key": "2ef0ce75febeb7bb049e4458005efcbfd5a7af6b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1046"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1046"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1212",
+      "name": "size/tabbar",
+      "description": "Dùng bởi: TabBarItem",
+      "key": "14b87ceb0fcd842915463e74e6554288a32c1744",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1050"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1050"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1213",
+      "name": "size/listitem/single",
+      "description": "Dùng bởi: ListItem lines single",
+      "key": "90b22473565f37ee6a036bf0b5e2f35baa826b86",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1049"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1049"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1214",
+      "name": "size/listitem/double",
+      "description": "Dùng bởi: ListItem lines double",
+      "key": "45d0506611ac55f4ed80a98ee2427436916f05f2",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1052"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1052"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1215",
+      "name": "size/listitem/triple",
+      "description": "Dùng bởi: ListItem lines triple",
+      "key": "1459a1cff801c8c6894b03bdb68b2f211e5a73c5",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1053"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1053"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1216",
+      "name": "size/marker/sm",
+      "description": "Dùng bởi: MarkerShell",
+      "key": "a249189f42d7c08da4b6f7ef0b5c1e4fba8ec457",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1217",
+      "name": "size/marker/md",
+      "description": "Dùng bởi: MarkerShell",
+      "key": "96947195735370a03ad871a00d4b93f1dc777510",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1218",
+      "name": "size/pin/point",
+      "description": "Dùng bởi: MapPin origin và destination",
+      "key": "e13c90cde1321f06f8b8135b657193d95303ee59",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1219",
+      "name": "size/pin/current",
+      "description": "Dùng bởi: MapPin current-location",
+      "key": "b4c482187594f2276c911fb322813bea46ae70bb",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1220",
+      "name": "size/step-marker",
+      "description": "Dùng bởi: StepIndicatorItem",
+      "key": "0c902cabf1e3a45737bbe9fbf21bc31183788010",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1041"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1041"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1221",
+      "name": "size/spinner/sm",
+      "description": "Dùng bởi: Spinner",
+      "key": "4120197dfe245fd5022d28853c205d18f81f50f0",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1222",
+      "name": "size/spinner/md",
+      "description": "Dùng bởi: Spinner",
+      "key": "cb7575e7dccc0e6d3ce9be9d63124f998051644c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1223",
+      "name": "size/spinner/lg",
+      "description": "Dùng bởi: Spinner",
+      "key": "05269adf95586037264116d42d3480af1ce97f70",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1047"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1047"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1224",
+      "name": "size/progress",
+      "description": "Dùng bởi: ProgressBar",
+      "key": "5eb0a07e8aaaff7743e4fdddc188f270b74c4592",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1225",
+      "name": "size/pagecontrol/dot",
+      "description": "Dùng bởi: PageControlDot inactive",
+      "key": "4de30dc83c49249a1ec29f16b90e0c450ccc3a69",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1038"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1226",
+      "name": "size/pagecontrol/active-length",
+      "description": "Dùng bởi: PageControlDot active",
+      "key": "cc59419ca8382fb99937f36cd83579e6b30bd754",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1042"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1227",
+      "name": "size/stateview-media/compact",
+      "description": "Dùng bởi: StateView size compact",
+      "key": "1e98c99fdbec2941f70d6dc9b03899d6dfcf191c",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1054"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1054"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1228",
+      "name": "size/stateview-media/full",
+      "description": "Dùng bởi: StateView size full",
+      "key": "194f2aead2d632a2902bae6b6c8c5e391fd3b4f4",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1055"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1055"
+        }
+      }
+    },
+    {
+      "id": "VariableID:118:1229",
+      "name": "font/size/8",
+      "description": "",
+      "key": "c55f4d8545c94aeb7df6523a46da5cb62246dba7",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 8
+      }
+    },
+    {
+      "id": "VariableID:118:1230",
+      "name": "font/size/32",
+      "description": "",
+      "key": "e45386be7402440c32168d19f8a71578895b87f6",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 32
+      }
+    },
+    {
+      "id": "VariableID:118:1231",
+      "name": "font/size/40",
+      "description": "",
+      "key": "e3ae2190373259b5efd8692bc4ca2567e94c72be",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 40
+      }
+    },
+    {
+      "id": "VariableID:118:1232",
+      "name": "font/size/48",
+      "description": "",
+      "key": "29a06b9c95949c86e9f04d52082dd36d4857b871",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 48
+      }
+    },
+    {
+      "id": "VariableID:118:1233",
+      "name": "font/lineheight/12",
+      "description": "",
+      "key": "4b3d54efb02b3434f4ef1f75453f76e7d2f6ef2f",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 12
+      }
+    },
+    {
+      "id": "VariableID:118:1234",
+      "name": "font/lineheight/40",
+      "description": "",
+      "key": "c76dbc9069ac7708afc143186527a9e7b0e5d6a8",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 40
+      }
+    },
+    {
+      "id": "VariableID:118:1235",
+      "name": "font/lineheight/48",
+      "description": "",
+      "key": "7f5d21653bdad7881b430637cc4bc00e2e6ef40a",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 48
+      }
+    },
+    {
+      "id": "VariableID:118:1236",
+      "name": "font/lineheight/56",
+      "description": "",
+      "key": "508d72fe2f9204b646344def7c02682901000cdb",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 56
+      }
+    },
+    {
+      "id": "VariableID:131:2147",
+      "name": "dim/10",
+      "description": "",
+      "key": "dfbb394aa1b554ff1415bc77d21c823d62661610",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 10
+      }
+    },
+    {
+      "id": "VariableID:131:2148",
+      "name": "control/ring-pressed",
+      "description": "Dùng bởi: viền Checkbox/Radio chưa chọn khi pressed; vòng sáng quanh Checkbox/Radio đã chọn khi pressed (độ dày stroke/medium)",
+      "key": "c2792879b30f03d38aa6e47ed67df1a28f0f8506",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:985"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:991"
+        }
+      }
+    },
+    {
+      "id": "VariableID:207:970",
+      "name": "text/Hightlight",
+      "description": "",
+      "key": "1e6e0281c86c2ca27dde75604e4f93ffbc819a7f",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1008"
+        },
+        "118:2": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:224:970",
+      "name": "surface/canvas",
+      "description": "Dùng bởi: nền màn hình, lớp dưới cùng chứa Card và section",
+      "key": "e1419e041bb74259e586cbc3d573a307cd46d5a2",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "COLOR",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:972"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:982"
+        }
+      }
+    },
+    {
+      "id": "VariableID:225:970",
+      "name": "size/control/xxsm",
+      "description": "Dùng bởi: Button, IconButton, field, Select, Chip cỡ sm",
+      "key": "6b793d82a4e8760855ad1199999dcf0ec1997d9b",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1044"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:225:971",
+      "name": "dim/28",
+      "description": "",
+      "key": "d74277d7e36d9a774dd878c93e0811d31acbcce9",
+      "variableCollectionId": "VariableCollectionId:118:970",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": true,
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:0": 28
+      }
+    },
+    {
+      "id": "VariableID:228:972",
+      "name": "size/control/xsm",
+      "description": "Dùng bởi: Button, IconButton, field, Select, Chip cỡ sm",
+      "key": "a4a781c3d2569078ca51e950d7f43d6635efb4a8",
+      "variableCollectionId": "VariableCollectionId:118:971",
+      "resolvedType": "FLOAT",
+      "remote": false,
+      "hiddenFromPublishing": false,
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "118:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:225:971"
+        },
+        "118:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:118:1045"
+        }
+      }
+    }
+  ]
+}

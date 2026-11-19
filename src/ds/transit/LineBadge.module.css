@@ -2,4 +2,4 @@
 .metro { --line: var(--transit-line-mrt1); }
 .bus { --line: var(--transit-line-bus); }
 .solid { background: var(--line); color: var(--text-on-dark); padding: 0 6px; border-radius: 6px; }
-.outline { background: var(--surface-default); color: var(--text-primary); border: 1.5px solid var(--line); padding: 0 var(--spacing-sm); border-radius: var(--radius-sm); }
+.outline { background: var(--surface-default); color: var(--text-primary); border: 1.5px solid var(--line); padding: 0 var(--spacing-sm); min-width: 48px; border-radius: var(--radius-sm); }

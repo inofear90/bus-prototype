@@ -15,7 +15,7 @@
 - Tab Theo dõi tàu: thẻ tuyến, 2 thẻ hướng, tap để chọn, nút "…" mở SC-03.
 - Tab Lối lên xuống (tap để chọn cửa) và tab Giá vé (danh sách ga theo hướng, nút đảo hướng).
 - Bottom sheet 3 mức: 30%, 55% (mặc định) và 90%.
-- Ở SC-01, tap vào trạm bus thường thì không làm gì. "Đi đến ga" hiện toast "Ngoài phạm vi".
+- Ở SC-01, mọi thẻ (metro và bus) đều chọn được. Thẻ bus có nút "Đi đến trạm" và "Xem chi tiết"; bấm vào thì hiện thông báo ngoài phạm vi. "Đi đến ga" của thẻ metro cũng hiện thông báo ngoài phạm vi.
 
 ### Ngoài phạm vi
 - Hết chuyến, chuyến cuối, chờ >60 phút, <1 phút, ga đầu/cuối, banner, sự cố.
@@ -128,4 +128,4 @@ Effect cũ trong luồng được map như sau (đề xuất, chờ designer xá
 | Minh hoạ Home (thành phố, xe bus, 3 tính năng, Tin Xanh) | Khối màu placeholder | Cung cấp asset |
 | Giá vé từ các ga khác Thảo Điền | Quy tắc mock theo số ga: ≤3 ga: 7.000; 4–5 ga: 12.000; 6–8 ga: 24.000; ≥9 ga: 28.000 | – |
 | Chuyến cuối | 22:28 tính từ ga đầu (05:00 + bội số của 8 phút, ≤ 22:30) | – |
-| Ga trong SC-01 | Chỉ thẻ ga metro chọn được. Thẻ trạm bus và nút tim vẫn hiển thị | – |
+| Thẻ trong SC-01 | Thẻ metro và bus đều có trạng thái selected. Nút trong thẻ bus chỉ hiện thông báo ngoài phạm vi | – |

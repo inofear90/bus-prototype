@@ -6,7 +6,9 @@ import { NEARBY } from '../data/nearby';
 import { SHEET_SNAPS, SNAP_DEFAULT, SNAP_FULL } from './constants';
 import s from './StationListScreen.module.css';
 
-/** SC-01 Danh sách trạm/ga. Only the metro station is selectable in v1. */
+const OUT_OF_SCOPE_ROUTE = 'Chỉ đường thuộc tính năng Tìm lộ trình – ngoài phạm vi prototype';
+
+/** SC-01 Danh sách trạm/ga. Every card is selectable; only the metro station opens a detail page in v1. */
 export function StationListScreen() {
   const { push, back } = useNavigation();
   const favorites = useFavorites();
@@ -45,16 +47,23 @@ export function StationListScreen() {
                 favorite={favorites.has(stop.metroStationId ?? stop.id)}
                 onToggleFavorite={() => favorites.toggle(stop.metroStationId ?? stop.id)}
                 onSelect={() => {
-                  if (!stop.metroStationId) return; // bus stops: out of scope (decision O-3)
                   setSelected(stop.id);
                   adapter.focusPoint(stop.id, stop.name);
                   if (snap === SNAP_FULL) setSnap(SNAP_DEFAULT);
                 }}
                 actions={
-                  <>
-                    <Button variant="primary" size="sm" icon="route" onClick={() => toast('“Đi đến ga” thuộc tính năng Tìm lộ trình – ngoài phạm vi prototype')}>Đi đến ga</Button>
-                    <Button size="sm" onClick={() => push({ name: 'station', id: stop.metroStationId! })}>Xem chi tiết</Button>
-                  </>
+                  stop.metroStationId ? (
+                    <>
+                      <Button variant="primary" size="sm" icon="route" onClick={() => toast(OUT_OF_SCOPE_ROUTE)}>Đi đến ga</Button>
+                      <Button size="sm" onClick={() => push({ name: 'station', id: stop.metroStationId! })}>Xem chi tiết</Button>
+                    </>
+                  ) : (
+                    // Bus stops: selectable, but their detail and routing are out of scope in v1.
+                    <>
+                      <Button variant="primary" size="sm" icon="route" onClick={() => toast(OUT_OF_SCOPE_ROUTE)}>Đi đến trạm</Button>
+                      <Button size="sm" onClick={() => toast('Chi tiết trạm xe bus nằm ngoài phạm vi prototype')}>Xem chi tiết</Button>
+                    </>
+                  )
                 }
               />
             </li>

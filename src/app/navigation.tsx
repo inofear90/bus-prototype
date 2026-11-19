@@ -5,15 +5,24 @@ export type Route =
   | { name: 'stations' }
   | { name: 'station'; id: string };
 
-interface Nav { stack: Route[]; push: (r: Route) => void; back: () => void }
-const Ctx = createContext<Nav>({ stack: [{ name: 'home' }], push: () => {}, back: () => {} });
+interface Nav {
+  stack: Route[];
+  /** True while the top screen plays its exit animation (after back). */
+  leaving: boolean;
+  push: (r: Route) => void;
+  back: () => void;
+  /** Called by the stack view when the exit animation has finished. */
+  finishBack: () => void;
+}
+const Ctx = createContext<Nav>({ stack: [{ name: 'home' }], leaving: false, push: () => {}, back: () => {}, finishBack: () => {} });
 
-/** Minimal stack navigator wired to browser history (hardware/browser back works). */
+/** Minimal stack navigator wired to browser history (hardware/browser back works and animates too). */
 export function NavigationProvider({ children }: { children: ReactNode }) {
   const [stack, setStack] = useState<Route[]>([{ name: 'home' }]);
+  const [leaving, setLeaving] = useState(false);
 
   useEffect(() => {
-    const onPop = () => setStack((s) => (s.length > 1 ? s.slice(0, -1) : s));
+    const onPop = () => setLeaving(true);
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
   }, []);
@@ -23,8 +32,12 @@ export function NavigationProvider({ children }: { children: ReactNode }) {
     setStack((s) => [...s, r]);
   }, []);
   const back = useCallback(() => window.history.back(), []);
+  const finishBack = useCallback(() => {
+    setStack((s) => (s.length > 1 ? s.slice(0, -1) : s));
+    setLeaving(false);
+  }, []);
 
-  return <Ctx.Provider value={{ stack, push, back }}>{children}</Ctx.Provider>;
+  return <Ctx.Provider value={{ stack, leaving: leaving && stack.length > 1, push, back, finishBack }}>{children}</Ctx.Provider>;
 }
 
 export const useNavigation = () => useContext(Ctx);

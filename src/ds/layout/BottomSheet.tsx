@@ -25,6 +25,9 @@ export interface BottomSheetProps {
   'aria-label'?: string;
 }
 
+/** Put this attribute on the selected item inside the sheet so the sheet can keep it in view. */
+export const ACTIVE_ATTR = 'data-sheet-active';
+
 const SNAP_EASE = 'transform 340ms cubic-bezier(0.2, 0.8, 0.2, 1)';
 const INTENT_PX = 6;
 
@@ -194,6 +197,23 @@ export function BottomSheet({
   useLayoutEffect(() => {
     if (scrollRef.current) scrollRef.current.scrollTop = 0;
   }, [contentKey]);
+
+  // When the sheet goes down a level (e.g. lowered after picking an item), keep the active item in view.
+  // Items mark themselves with `data-sheet-active` (see ACTIVE_ATTR).
+  const prevSnap = useRef(snap);
+  useEffect(() => {
+    const lowered = snap < prevSnap.current;
+    prevSnap.current = snap;
+    const box = scrollRef.current;
+    const header = box?.previousElementSibling as HTMLElement | null;
+    const item = box?.querySelector<HTMLElement>(`[${ACTIVE_ATTR}]`);
+    if (!lowered || !box || !item || !height) return;
+    const visible = height * snaps[snap] - (header?.offsetHeight ?? 0) - footerSpace;
+    const top = item.getBoundingClientRect().top - box.getBoundingClientRect().top + box.scrollTop;
+    const bottom = top + item.offsetHeight;
+    if (top >= box.scrollTop && bottom <= box.scrollTop + visible) return; // already fully visible
+    box.scrollTo({ top: Math.max(0, top - (visible - item.offsetHeight) / 2), behavior: 'smooth' });
+  }, [snap, snaps, height, footerSpace]);
 
   // Keep the last item reachable: the part of the sheet below the viewport is padding.
   const hiddenBelow = height ? translateFor(snap) : 0;

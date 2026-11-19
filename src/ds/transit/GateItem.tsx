@@ -1,6 +1,7 @@
 import { Icon } from '../icons/Icon';
 import { Text } from '../primitives/Text';
 import { cx } from '../primitives/cx';
+import { sheetActive } from '../layout/sheetActive';
 import s from './GateItem.module.css';
 
 export interface GateItemProps {
@@ -13,7 +14,7 @@ export interface GateItemProps {
 /** Station entrance/exit (Figma WF-Card-metro in tab "Lối lên xuống"). */
 export function GateItem({ name, streets, selected, onSelect }: GateItemProps) {
   return (
-    <button type="button" className={cx(s.card, selected && s.selected)} onClick={onSelect} aria-pressed={selected}>
+    <button type="button" className={cx(s.card, selected && s.selected)} onClick={onSelect} aria-pressed={selected} {...sheetActive(selected)}>
       <span className={s.icon}><Icon name="pin-gate" size={24} /></span>
       <span className={s.text}>
         <Text variant="label-md-md" tone={selected ? 'brand' : 'primary'}>{name}</Text>

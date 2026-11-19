@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { IconButton } from '../primitives/IconButton';
 import { Text } from '../primitives/Text';
 import { cx } from '../primitives/cx';
+import { sheetActive } from '../layout/sheetActive';
 import { LineBadge } from './LineBadge';
 import { StationIcon } from './StationIcon';
 import type { LineRef, TransitMode } from './types';
@@ -27,7 +28,7 @@ export function StationListCard({
   name, mode, distance, walkTime, address, lines, selected, favorite, onSelect, onToggleFavorite, actions,
 }: StationListCardProps) {
   return (
-    <article className={cx(s.card, selected && s.selected)}>
+    <article className={cx(s.card, selected && s.selected)} {...sheetActive(selected)}>
       <button type="button" className={s.hit} onClick={onSelect} aria-expanded={selected} aria-label={name} />
       <div className={s.top}>
         <StationIcon mode={mode} size={24} />

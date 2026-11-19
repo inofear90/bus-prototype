@@ -1,6 +1,7 @@
 import { Tag } from '../primitives/Tag';
 import { Text } from '../primitives/Text';
 import { cx } from '../primitives/cx';
+import { sheetActive } from '../layout/sheetActive';
 import s from './StationTimeline.module.css';
 
 export interface TimelineStop {
@@ -31,7 +32,7 @@ export function StationTimeline({ stops, currentId, selectedId, onSelect }: Stat
         const selected = stop.id === selectedId;
         const current = stop.id === currentId;
         return (
-          <li key={stop.id} className={cx(s.row, selected && s.selected)}>
+          <li key={stop.id} className={cx(s.row, selected && s.selected)} {...sheetActive(selected)}>
             <button type="button" className={s.hit} onClick={() => onSelect?.(stop.id)} aria-pressed={selected} aria-label={stop.name} />
             <span className={s.rail} aria-hidden>
               <span className={cx(s.connector, i === 0 && s.hiddenLine)} />

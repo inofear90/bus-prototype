@@ -3,6 +3,7 @@ import { Divider } from '../primitives/Divider';
 import { IconButton } from '../primitives/IconButton';
 import { Text } from '../primitives/Text';
 import { cx } from '../primitives/cx';
+import { sheetActive } from '../layout/sheetActive';
 import s from './DirectionCard.module.css';
 
 export interface DirectionCardProps {
@@ -22,7 +23,7 @@ export interface DirectionCardProps {
 /** Live direction card (Figma card-metro-route, state "Thời gian chờ tàu < 60 phút"). */
 export function DirectionCard({ towards, platform, minutes, nextTimes, selected, onSelect, onMore }: DirectionCardProps) {
   return (
-    <article className={cx(s.card, selected && s.selected)}>
+    <article className={cx(s.card, selected && s.selected)} {...sheetActive(selected)}>
       <button type="button" className={s.hit} onClick={onSelect} aria-pressed={selected} aria-label={`Hướng ${towards}`} />
       <header className={s.head}>
         <span className={s.towards}>

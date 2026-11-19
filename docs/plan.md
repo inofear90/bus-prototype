@@ -50,4 +50,4 @@ P2 rủi ro nhất với yêu cầu "mượt", nên làm và kiểm tra sớm.
 - Không dùng CSS-in-JS runtime hay thư viện animation. Bundle mục tiêu dưới 100 KB gzip.
 
 ## 5. Ngoài phạm vi v1
-Storybook, monorepo/npm package, dark mode (token có sẵn nhưng không kiểm thử), i18n, map thật, các trạng thái ngoài main case.
+Storybook, monorepo/npm package, dark mode (token có sẵn, chỉ bật khi đặt `data-vb-theme="dark"`, chưa kiểm thử), i18n, map thật, các trạng thái ngoài main case.

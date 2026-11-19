@@ -3,7 +3,7 @@
 //
 //   Primitive collection  -> :root { --neutral-800: #3a4040; --dim-16: 16px; ... }
 //   Semantic collection   -> :root { --text-primary: var(--neutral-800); ... }   (Light)
-//                            [data-theme='dark'] { ... }                         (Dark)
+//                            [data-vb-theme='dark'] { ... }                      (Dark, opt-in only)
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
@@ -44,7 +44,7 @@ for (const col of src.collections) {
   const vars = col.variableIds.map((id) => byId.get(id)).filter(Boolean);
   const isSemantic = col.modes.length > 1;
   for (const mode of col.modes) {
-    const selector = isSemantic && mode.name.toLowerCase() === 'dark' ? "[data-theme='dark']" : ':root';
+    const selector = isSemantic && mode.name.toLowerCase() === 'dark' ? "[data-vb-theme='dark']" : ':root';
     out.push('', `/* ${col.name} – ${mode.name} */`, `${selector} {`);
     for (const v of vars) out.push(`  ${cssName(v.name)}: ${value(v, mode.modeId)};`);
     out.push('}');

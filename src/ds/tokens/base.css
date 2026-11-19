@@ -11,6 +11,8 @@
 @import './effects.css';
 
 *, *::before, *::after { box-sizing: border-box; }
+/* Light is the default. Dark tokens apply only with <html data-vb-theme="dark"> (not tested in v1). */
+:root { color-scheme: light; }
 html, body, #root { height: 100%; margin: 0; }
 body {
   font-family: var(--font-family-primary), system-ui, sans-serif;

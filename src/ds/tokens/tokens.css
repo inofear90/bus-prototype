@@ -281,7 +281,7 @@
 }
 
 /* Semantic - VinBus – Dark */
-[data-theme='dark'] {
+[data-vb-theme='dark'] {
   --text-primary: var(--neutral-50);
   --text-secondary: var(--neutral-400);
   --text-disabled: var(--neutral-600);

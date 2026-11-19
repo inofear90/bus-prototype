@@ -1,5 +1,5 @@
 .dock {
-  position: absolute; left: 0; right: 0; bottom: 0; z-index: 20;
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 30;
   padding: var(--spacing-lg) var(--spacing-screen-margin) calc(var(--spacing-lg) + env(safe-area-inset-bottom));
   background: linear-gradient(to bottom, var(--alpha-white-0), var(--surface-default) 30%);
   pointer-events: none;

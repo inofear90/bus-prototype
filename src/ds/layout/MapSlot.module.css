@@ -22,5 +22,3 @@
   transition: bottom 340ms cubic-bezier(0.2, 0.8, 0.2, 1), opacity 200ms ease;
 }
 .hidden { opacity: 0; pointer-events: none; }
-.scrim { position: absolute; inset: 0; background: var(--scrim-subtle); opacity: 0; transition: opacity 240ms ease; pointer-events: none; }
-.scrimOn { opacity: 1; pointer-events: auto; }

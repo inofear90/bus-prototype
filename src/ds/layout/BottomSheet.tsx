@@ -17,6 +17,8 @@ export interface BottomSheetProps {
   onSwipe?: (direction: 'left' | 'right') => void;
   /** Background of the scroll area. */
   tone?: 'default' | 'raised';
+  /** Dim everything behind the sheet (map, top bar) at the top snap; tapping it lowers the sheet one level. */
+  backdrop?: boolean;
   className?: string;
   'aria-label'?: string;
 }
@@ -32,7 +34,7 @@ const INTENT_PX = 6;
  * - Movement only touches `transform` via a ref, so React never re-renders during a drag.
  */
 export function BottomSheet({
-  snaps, snap, onSnapChange, header, children, footerSpace = 0, onSwipe, tone = 'raised', className, ...aria
+  snaps, snap, onSnapChange, header, children, footerSpace = 0, onSwipe, tone = 'raised', backdrop = true, className, ...aria
 }: BottomSheetProps) {
   const rootRef = useRef<HTMLDivElement>(null);
   const sheetRef = useRef<HTMLDivElement>(null);
@@ -113,7 +115,14 @@ export function BottomSheet({
     e.preventDefault(); // no text selection / native drag (it would cancel the pointer)
     e.currentTarget.setPointerCapture(e.pointerId);
     movedRef.current = false;
+    onGrabberRef.current = !!(e.target as HTMLElement).closest('[data-grabber]');
     begin(e.clientY);
+  };
+  const onGrabberRef = useRef(false);
+  const cycle = () => onSnapChange(snap < snaps.length - 1 ? snap + 1 : 1);
+  const onHeaderPointerUp = () => {
+    if (!movedRef.current && onGrabberRef.current) { drag.current.active = false; cycle(); return; }
+    end();
   };
   const movedRef = useRef(false);
   const onHeaderPointerMove = (e: React.PointerEvent) => {
@@ -182,6 +191,15 @@ export function BottomSheet({
 
   return (
     <div ref={rootRef} className={s.root}>
+      {backdrop && (
+        <button
+          type="button"
+          tabIndex={-1}
+          aria-hidden
+          className={cx(s.backdrop, snap === snaps.length - 1 && s.backdropOn)}
+          onClick={() => onSnapChange(snap - 1)}
+        />
+      )}
       <section
         ref={sheetRef}
         className={cx(s.sheet, className)}
@@ -192,7 +210,7 @@ export function BottomSheet({
           className={s.header}
           onPointerDown={onHeaderPointerDown}
           onPointerMove={onHeaderPointerMove}
-          onPointerUp={end}
+          onPointerUp={onHeaderPointerUp}
           onPointerCancel={end}
         >
           <button
@@ -200,7 +218,7 @@ export function BottomSheet({
             data-grabber
             className={s.grabber}
             aria-label="Đổi chiều cao bảng thông tin"
-            onClick={() => { if (!movedRef.current) onSnapChange(snap < snaps.length - 1 ? snap + 1 : 1); }}
+            onClick={(e) => { if (e.detail === 0) cycle(); /* keyboard only; pointer handled on pointerup */ }}
           />
           {header}
         </div>

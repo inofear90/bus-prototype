@@ -1,4 +1,6 @@
-.root { position: absolute; inset: 0; pointer-events: none; overflow: clip; }
+.root { position: absolute; inset: 0; z-index: 20; pointer-events: none; overflow: clip; }
+.backdrop { position: absolute; inset: 0; background: var(--scrim-subtle); opacity: 0; pointer-events: none; transition: opacity 240ms ease; cursor: default; }
+.backdropOn { opacity: 1; pointer-events: auto; }
 .sheet {
   /* Anchored to the bottom with height = top snap; translateY lowers it to the current snap. */
   position: absolute; left: 0; right: 0; bottom: 0;

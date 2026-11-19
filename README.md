@@ -40,7 +40,8 @@ src/gallery/     catalogue component (#/gallery)
 
 1. Tạo `src/flows/<ten-luong>/`. Chỉ import từ `@ds`.
 2. Nếu luồng cần component hoặc style chưa có, bổ sung vào `src/ds/` trước (không chứa dữ liệu hay copy cứng). Sau đó thêm component vào gallery.
-3. Màn hình có map dùng `MapSlot` và gọi map qua `MapAdapter` (`focusPoint`, `highlightPath`). Khi có map thật, chỉ cần thay adapter.
+3. Thứ tự lớp trên màn hình có map: map (0) < top bar (10) < sheet + lớp phủ (20) < dock (30) < sheet modal (40) < toast (50). Ở mức sheet cao nhất, lớp phủ của sheet che cả map và top bar; chạm vào lớp phủ thì sheet hạ một mức.
+4. Màn hình có map dùng `MapSlot` và gọi map qua `MapAdapter` (`focusPoint`, `highlightPath`). Khi có map thật, chỉ cần thay adapter.
 
 ## Deploy
 

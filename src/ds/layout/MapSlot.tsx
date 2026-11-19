@@ -7,7 +7,7 @@ export interface MapSlotProps {
   lastAction?: string | null;
   /** Fraction of the screen the map is visible in (used to keep controls above the sheet). */
   visibleFraction: number;
-  /** Sheet is at its top snap: map is only a background (no controls, scrim on top). */
+  /** Sheet is at its top snap: map is only a background (controls hidden; the sheet draws the backdrop). */
   inactive?: boolean;
 }
 
@@ -27,7 +27,6 @@ export function MapSlot({ lastAction, visibleFraction, inactive }: MapSlotProps)
         <IconButton icon="my-location" label="Vị trí của tôi" variant="floating" size="md" shape="round" iconSize={20} />
         <IconButton icon="compass" label="La bàn" variant="floating" size="md" shape="round" iconSize={20} />
       </div>
-      <div className={cx(s.scrim, inactive && s.scrimOn)} />
     </div>
   );
 }

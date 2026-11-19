@@ -78,6 +78,7 @@ export function StationDetailScreen({ stationId }: { stationId: string }) {
         onSnapChange={setSnap}
         footerSpace={DOCK_SPACE}
         onSwipe={swipe}
+        contentKey={tab}
         tone={tab === 'fares' ? 'default' : 'raised'}
         aria-label={`Ga ${station.name}`}
         header={

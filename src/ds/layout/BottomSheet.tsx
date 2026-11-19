@@ -17,6 +17,8 @@ export interface BottomSheetProps {
   onSwipe?: (direction: 'left' | 'right') => void;
   /** Background of the scroll area. */
   tone?: 'default' | 'raised';
+  /** When this changes (e.g. the active tab), the content scrolls back to the top. The sheet level never changes. */
+  contentKey?: string;
   /** Dim everything behind the sheet (map, top bar) at the top snap; tapping it lowers the sheet one level. */
   backdrop?: boolean;
   className?: string;
@@ -34,7 +36,7 @@ const INTENT_PX = 6;
  * - Movement only touches `transform` via a ref, so React never re-renders during a drag.
  */
 export function BottomSheet({
-  snaps, snap, onSnapChange, header, children, footerSpace = 0, onSwipe, tone = 'raised', backdrop = true, className, ...aria
+  snaps, snap, onSnapChange, header, children, footerSpace = 0, onSwipe, tone = 'raised', backdrop = true, contentKey, className, ...aria
 }: BottomSheetProps) {
   const rootRef = useRef<HTMLDivElement>(null);
   const sheetRef = useRef<HTMLDivElement>(null);
@@ -111,6 +113,8 @@ export function BottomSheet({
 
   // Header: always drags (pointer events cover mouse + touch).
   const onHeaderPointerDown = (e: React.PointerEvent) => {
+    onGrabberRef.current = false;
+    // Buttons and tabs in the header keep their own behaviour: tapping them never moves the sheet (BR-06).
     if ((e.target as HTMLElement).closest('button:not([data-grabber]), a, [role="tab"]')) return;
     e.preventDefault(); // no text selection / native drag (it would cancel the pointer)
     e.currentTarget.setPointerCapture(e.pointerId);
@@ -121,7 +125,8 @@ export function BottomSheet({
   const onGrabberRef = useRef(false);
   const cycle = () => onSnapChange(snap < snaps.length - 1 ? snap + 1 : 1);
   const onHeaderPointerUp = () => {
-    if (!movedRef.current && onGrabberRef.current) { drag.current.active = false; cycle(); return; }
+    if (!drag.current.active) return; // the press started on a tab/button, not a drag
+    if (!movedRef.current && onGrabberRef.current) { drag.current.active = false; onGrabberRef.current = false; cycle(); return; }
     end();
   };
   const movedRef = useRef(false);
@@ -185,6 +190,10 @@ export function BottomSheet({
       window.removeEventListener('pointerup', mu);
     };
   });
+
+  useLayoutEffect(() => {
+    if (scrollRef.current) scrollRef.current.scrollTop = 0;
+  }, [contentKey]);
 
   // Keep the last item reachable: the part of the sheet below the viewport is padding.
   const hiddenBelow = height ? translateFor(snap) : 0;

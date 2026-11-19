@@ -1,0 +1,21 @@
+.stage { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: var(--surface-canvas); }
+.device { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--surface-default); }
+.viewport { position: absolute; inset: 0; overflow: clip; }
+.statusBar { display: none; }
+
+@media (min-width: 520px) and (min-height: 700px) {
+  .stage { background: var(--neutral-100); }
+  .device {
+    width: 375px; height: min(812px, calc(100vh - 32px)); border-radius: 44px;
+    box-shadow: var(--elevation-highest), 0 0 0 10px var(--neutral-900);
+  }
+  .statusBar {
+    display: flex; position: absolute; z-index: 60; top: 0; left: 0; right: 0; height: 44px;
+    align-items: center; justify-content: space-between; padding: 0 28px; pointer-events: none;
+    color: var(--text-on-light);
+  }
+  .statusIcons { display: flex; gap: 6px; }
+  .statusIcons i { display: block; width: 18px; height: 10px; border-radius: 3px; background: currentColor; opacity: 0.85; }
+}
+
+.screen { position: absolute; inset: 0; overflow: clip; background: var(--surface-default); }

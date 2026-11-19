@@ -1,0 +1,9 @@
+.chip {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 72px;
+  height: var(--size-control-sm); padding: 0 var(--spacing-sm);
+  border-radius: var(--radius-full); border: var(--control-border); box-shadow: var(--control-shadow);
+  background: var(--surface-default); color: var(--text-primary);
+  transition: background-color 150ms ease, color 150ms ease;
+}
+.text { padding: 0 6px; white-space: nowrap; }
+.selected { background: var(--surface-inverse); color: var(--text-on-inverse); }

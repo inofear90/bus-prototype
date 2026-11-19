@@ -1,0 +1,27 @@
+// Public API of the design-system library. Flows import from '@ds' only.
+export { Icon, type IconName, type IconProps } from './icons/Icon';
+export { Text, type TextVariant, type TextTone } from './primitives/Text';
+export { Button } from './primitives/Button';
+export { IconButton } from './primitives/IconButton';
+export { Chip } from './primitives/Chip';
+export { Tag } from './primitives/Tag';
+export { Divider } from './primitives/Divider';
+export { Tabs, type TabItem } from './primitives/Tabs';
+export { ToastProvider, useToast } from './primitives/Toast';
+export { cx } from './primitives/cx';
+export { BottomSheet } from './layout/BottomSheet';
+export { Screen, DeviceFrame } from './layout/Screen';
+export { Dock, DOCK_SPACE } from './layout/Dock';
+export { TopBar } from './layout/TopBar';
+export { MapSlot } from './layout/MapSlot';
+export { usePlaceholderMap, type MapAdapter } from './layout/map';
+export type { LineRef, TransitMode } from './transit/types';
+export { LineBadge } from './transit/LineBadge';
+export { StationIcon } from './transit/StationIcon';
+export { StationListCard } from './transit/StationListCard';
+export { StationHeader } from './transit/StationHeader';
+export { RouteSummary } from './transit/RouteSummary';
+export { DirectionCard } from './transit/DirectionCard';
+export { TimetableGrid, type TimetableRow, type TimetableSlot } from './transit/TimetableGrid';
+export { StationTimeline, type TimelineStop } from './transit/StationTimeline';
+export { GateItem } from './transit/GateItem';

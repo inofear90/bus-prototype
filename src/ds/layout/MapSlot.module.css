@@ -1,0 +1,26 @@
+.map { position: absolute; inset: 0; background: var(--neutral-50); overflow: clip; }
+.grid {
+  position: absolute; inset: -40px;
+  background-image:
+    linear-gradient(var(--neutral-200) 1px, transparent 1px),
+    linear-gradient(90deg, var(--neutral-200) 1px, transparent 1px);
+  background-size: 36px 36px; transform: rotate(-28deg); opacity: 0.7;
+}
+.label {
+  position: absolute; left: 50%; transform: translate(-50%, -50%);
+  display: flex; flex-direction: column; align-items: center; gap: var(--spacing-xs);
+  color: var(--text-secondary); text-align: center; transition: top 340ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  white-space: nowrap;
+}
+.action {
+  color: var(--text-brand); background: var(--surface-default); padding: 2px var(--spacing-sm);
+  border-radius: var(--radius-full); box-shadow: var(--elevation-lowest); animation: pop 220ms ease-out;
+}
+@keyframes pop { from { transform: scale(0.9); opacity: 0; } }
+.controls {
+  position: absolute; right: var(--spacing-md); display: flex; flex-direction: column; gap: var(--spacing-lg);
+  transition: bottom 340ms cubic-bezier(0.2, 0.8, 0.2, 1), opacity 200ms ease;
+}
+.hidden { opacity: 0; pointer-events: none; }
+.scrim { position: absolute; inset: 0; background: var(--scrim-subtle); opacity: 0; transition: opacity 240ms ease; pointer-events: none; }
+.scrimOn { opacity: 1; pointer-events: auto; }

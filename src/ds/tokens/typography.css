@@ -1,0 +1,37 @@
+/* Typography – values from [GTCC] Foundation › Typography.
+ * Figma letter-spacing is a % of font size, so it maps 1:1 to em (-2% = -0.02em).
+ * Class name: .t-{group}-{size}-{weight}, e.g. .t-label-md-smb  (Figma "label/MD Smb"). */
+
+.t-head-h3-smb { font-size: 32px; line-height: 40px; font-weight: var(--font-weight-semibold); letter-spacing: -0.04em; }
+.t-head-h3-md { font-size: 32px; line-height: 40px; font-weight: var(--font-weight-medium); letter-spacing: -0.04em; }
+.t-head-h4-smb { font-size: 24px; line-height: 32px; font-weight: var(--font-weight-semibold); letter-spacing: -0.04em; }
+.t-head-h4-md { font-size: 24px; line-height: 32px; font-weight: var(--font-weight-medium); letter-spacing: -0.04em; }
+.t-title-xl-smb { font-size: 20px; line-height: 28px; font-weight: var(--font-weight-semibold); letter-spacing: -0.03em; }
+.t-title-xl-md { font-size: 20px; line-height: 28px; font-weight: var(--font-weight-medium); letter-spacing: -0.03em; }
+.t-title-lg-smb { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-semibold); letter-spacing: -0.03em; }
+.t-title-lg-md { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-medium); letter-spacing: -0.03em; }
+.t-label-lg-smb { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-semibold); letter-spacing: -0.02em; }
+.t-label-lg-md { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-medium); letter-spacing: -0.02em; }
+.t-label-lg-reg { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-regular); letter-spacing: -0.02em; }
+.t-label-md-smb { font-size: 14px; line-height: 20px; font-weight: var(--font-weight-semibold); letter-spacing: -0.02em; }
+.t-label-md-md { font-size: 14px; line-height: 20px; font-weight: var(--font-weight-medium); letter-spacing: -0.02em; }
+.t-label-md-reg { font-size: 14px; line-height: 20px; font-weight: var(--font-weight-regular); letter-spacing: -0.02em; }
+.t-label-sm-smb { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-semibold); letter-spacing: -0.02em; }
+.t-label-sm-md { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-medium); letter-spacing: -0.02em; }
+.t-label-sm-reg { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-regular); letter-spacing: -0.02em; }
+.t-label-xs-smb { font-size: 10px; line-height: 14px; font-weight: var(--font-weight-semibold); letter-spacing: -0.02em; }
+.t-label-xs-md { font-size: 10px; line-height: 14px; font-weight: var(--font-weight-medium); letter-spacing: -0.02em; }
+.t-label-xs-reg { font-size: 10px; line-height: 14px; font-weight: var(--font-weight-regular); letter-spacing: -0.02em; }
+.t-body-lg-smb { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-semibold); letter-spacing: -0.015em; }
+.t-body-lg-md { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-medium); letter-spacing: -0.015em; }
+.t-body-lg-reg { font-size: 16px; line-height: 24px; font-weight: var(--font-weight-regular); letter-spacing: -0.015em; }
+.t-body-md-smb { font-size: 14px; line-height: 20px; font-weight: var(--font-weight-semibold); letter-spacing: -0.015em; }
+.t-body-md-md { font-size: 14px; line-height: 20px; font-weight: var(--font-weight-medium); letter-spacing: -0.015em; }
+.t-body-md-reg { font-size: 14px; line-height: 20px; font-weight: var(--font-weight-regular); letter-spacing: -0.015em; }
+.t-body-sm-smb { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-semibold); letter-spacing: -0.015em; }
+.t-body-sm-md { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-medium); letter-spacing: -0.015em; }
+.t-body-sm-reg { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-regular); letter-spacing: -0.015em; }
+.t-support-sm-md { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-medium); letter-spacing: -0.01em; }
+.t-support-sm-reg { font-size: 12px; line-height: 16px; font-weight: var(--font-weight-regular); letter-spacing: -0.01em; }
+.t-support-xs-md { font-size: 8px; line-height: 12px; font-weight: var(--font-weight-medium); letter-spacing: -0.01em; }
+.t-support-xs-reg { font-size: 8px; line-height: 12px; font-weight: var(--font-weight-regular); letter-spacing: -0.01em; }

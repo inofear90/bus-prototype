@@ -1,0 +1,5 @@
+.badge { display: inline-flex; align-items: center; justify-content: center; gap: var(--spacing-xs); height: var(--size-control-xxsm); flex-shrink: 0; white-space: nowrap; }
+.metro { --line: var(--transit-line-mrt1); }
+.bus { --line: var(--transit-line-bus); }
+.solid { background: var(--line); color: var(--text-on-dark); padding: 0 6px; border-radius: 6px; }
+.outline { background: var(--surface-default); color: var(--text-primary); border: 1.5px solid var(--line); padding: 0 var(--spacing-sm); border-radius: var(--radius-sm); }

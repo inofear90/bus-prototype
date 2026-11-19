@@ -114,3 +114,18 @@ Effect cũ trong luồng được map như sau (đề xuất, chờ designer xá
 - Ưu tiên trình duyệt trên điện thoại. Trên desktop, prototype hiện trong khung 375×812.
 - Font: `@fontsource/google-sans` (OFL-1.1, 400/500/600, có subset tiếng Việt), đóng gói cùng app.
 - Icon và minh hoạ: export từ Figma. **Đang chặn:** môi trường build chưa tải được file từ `www.figma.com`.
+
+## 6. Ghi chú khi triển khai v1 (20/11/2026)
+
+| Điểm | Cách làm | Cần designer xem |
+|---|---|---|
+| Số phút lớn trên thẻ hướng (44/40, −4%) | Style riêng trong `DirectionCard`, vì Foundation chưa có cỡ này | Thêm style "display" vào Foundation |
+| Style "Reg" (body/label/support) | Theo Foundation: weight 400. Bản local trong luồng đang dùng file font Medium, nên chữ địa chỉ trên prototype sẽ nhạt hơn mock | Rebind sang style chuẩn |
+| Bo góc card | `radius/md` = 12 theo chuẩn (mock đang 16) | Rebind |
+| Gạch chân tab | 3px, theo mock (`stroke/medium` chuẩn là 2px) | Chốt 2px hay 3px |
+| Nền icon cửa | `transit/gate-subtle` #fff8e6 | Đưa vào bộ chuẩn |
+| Icon thiếu trong bộ icon | `more` (3 chấm) và `headset` là **placeholder**. `clock` được cắt từ sprite `ic.ref/clock.svg` | Bổ sung icon |
+| Minh hoạ Home (thành phố, xe bus, 3 tính năng, Tin Xanh) | Khối màu placeholder | Cung cấp asset |
+| Giá vé từ các ga khác Thảo Điền | Quy tắc mock theo số ga: ≤3 ga: 7.000; 4–5 ga: 12.000; 6–8 ga: 24.000; ≥9 ga: 28.000 | – |
+| Chuyến cuối | 22:28 tính từ ga đầu (05:00 + bội số của 8 phút, ≤ 22:30) | – |
+| Ga trong SC-01 | Chỉ thẻ ga metro chọn được. Thẻ trạm bus và nút tim vẫn hiển thị | – |

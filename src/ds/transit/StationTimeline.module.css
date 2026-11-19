@@ -1,0 +1,17 @@
+.list { display: flex; flex-direction: column; }
+.row { position: relative; display: flex; align-items: center; gap: var(--spacing-md); padding: 0 var(--spacing-sm); border-radius: var(--radius-md); transition: background-color 150ms ease; }
+.selected { background: var(--surface-selected); }
+.hit { position: absolute; inset: 0; border-radius: inherit; }
+.rail, .info, .value, .row > :last-child { pointer-events: none; }
+.rail { display: flex; flex-direction: column; align-items: center; width: 40px; flex-shrink: 0; }
+.connector { width: 2px; height: 8px; background: var(--border-selected); }
+.hiddenLine { visibility: hidden; }
+.box {
+  width: 40px; height: 40px; border-radius: var(--radius-sm); border: 2px solid var(--border-selected);
+  background: var(--surface-default); color: var(--text-primary);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 15px;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+.boxFilled { background: var(--action-primary-bg); color: var(--text-on-brand); }
+.info { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.value { white-space: nowrap; }

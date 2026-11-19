@@ -1,0 +1,8 @@
+/* Transit tokens not yet in the standard Figma set (docs/decisions.md §3.3).
+ * Move into figma-variables.json once design adds them. */
+:root {
+  --transit-gate: #ffb700;
+  --transit-line-mrt1: var(--feedback-info-strong);
+  --transit-line-bus: var(--feedback-success-text);
+  --transit-direction-primary: #1078ee;
+}

@@ -1,0 +1,5 @@
+.block { display: flex; flex-direction: column; gap: var(--spacing-sm); padding: var(--spacing-lg) var(--spacing-screen-margin); background: var(--surface-default); }
+.row { display: flex; align-items: center; justify-content: space-between; }
+.free { color: var(--feedback-success-strong); }
+.meta { display: flex; align-items: center; gap: var(--spacing-sm); color: var(--icon-default); white-space: nowrap; }
+.item { display: inline-flex; align-items: center; gap: var(--spacing-xs); }

@@ -1,0 +1,14 @@
+.tabs {
+  display: flex; padding: 0 var(--spacing-screen-margin);
+  background: var(--surface-default); border-bottom: var(--stroke-thin) solid var(--border-default);
+}
+.tab {
+  position: relative; height: var(--size-control-md); padding: 0 var(--spacing-md);
+  color: var(--text-primary); white-space: nowrap;
+}
+.tab::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: var(--tab-indicator-width);
+  background: var(--border-selected); transform: scaleX(0); transition: transform 180ms ease;
+}
+.active { color: var(--text-on-light); }
+.active::after { transform: scaleX(1); }

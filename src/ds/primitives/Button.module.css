@@ -1,0 +1,13 @@
+.button {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--spacing-xs);
+  border: var(--control-border); border-radius: var(--radius-full);
+  box-shadow: var(--control-shadow);
+  white-space: nowrap; transition: transform 120ms ease, background-color 120ms ease;
+}
+.button:active { transform: scale(0.97); }
+.sm { height: var(--size-control-sm); min-width: 100px; padding: 0 var(--spacing-md); }
+.md { height: var(--size-control-md); min-width: 100px; padding: 0 var(--spacing-lg); }
+.primary { background: var(--action-primary-bg); color: var(--text-on-brand); }
+.primary:active { background: var(--action-primary-bg-pressed); }
+.secondary { background: var(--surface-field); color: var(--text-primary); }
+.secondary:active { background: var(--surface-disabled); }

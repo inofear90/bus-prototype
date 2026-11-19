@@ -1,0 +1,7 @@
+.tag {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 40px;
+  padding: 2px 6px; border-radius: var(--spacing-sm); white-space: nowrap;
+}
+.neutral { background: var(--badge-neutral-bg); color: var(--text-primary); }
+.success { background: var(--feedback-success-strong); color: var(--text-on-feedback); }
+.info { background: var(--feedback-info-subtle); color: var(--feedback-info-text); }

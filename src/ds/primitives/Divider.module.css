@@ -1,0 +1,3 @@
+.divider { display: block; flex-shrink: 0; background: var(--border-subtle); }
+.horizontal { height: var(--stroke-thin); width: 100%; }
+.vertical { width: var(--stroke-thin); align-self: center; }

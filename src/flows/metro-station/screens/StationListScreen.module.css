@@ -1,0 +1,6 @@
+.location {
+  display: flex; align-items: center; gap: var(--spacing-sm); height: var(--size-control-md); padding: 0 var(--spacing-md);
+  border-radius: var(--radius-md); background: var(--surface-default); box-shadow: var(--elevation-low), var(--shadow-micro); min-width: 0;
+}
+.title { padding: 0 var(--spacing-screen-margin) var(--spacing-md); }
+.list { display: flex; flex-direction: column; gap: var(--spacing-sm); padding: var(--spacing-lg) var(--spacing-screen-margin); }

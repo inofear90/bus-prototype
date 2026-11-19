@@ -1,0 +1,14 @@
+/* Elevation – values from [GTCC] Foundation › Elevation.
+ * Legacy effects in the flow are mapped in docs/decisions.md §3.5. */
+:root {
+  --elevation-base: 0 1px 1px -0.5px #00000008;
+  --elevation-lowest: 0 3px 3px -1.5px #00000008, var(--elevation-base);
+  --elevation-low: 0 20px 20px -12px #00000008, var(--elevation-lowest);
+  --elevation-mid: 0 32px 32px -16px #00000008, var(--elevation-low);
+  --elevation-high: 0 56px 56px -28px #00000008, var(--elevation-mid);
+  --elevation-highest: 0 72px 72px -36px #00000008, var(--elevation-high);
+  --shadow-micro: 0 2px 3px -1.5px #00000052;
+  /* effect/compPrimary = background blur 24 + shadow + inner highlight */
+  --effect-comp-primary-shadow: 0 1px 1px -0.5px #00000008, inset 0 3px 3px 0 #ffffff1f;
+  --effect-comp-primary-blur: blur(24px);
+}

@@ -1,0 +1,10 @@
+/* Shared surface recipes used by controls (buttons, chips, icon buttons).
+ * Built only from standard tokens: alpha/black/8 border + effect/compPrimary. */
+:root {
+  --control-border: var(--stroke-thin) solid var(--alpha-black-8);
+  --control-shadow: var(--effect-comp-primary-shadow);
+  --floating-shadow: var(--elevation-low);
+  --sheet-shadow: var(--elevation-high), 0 -2px 16px #0000000f;
+  --transit-gate-subtle: #fff8e6;
+  --tab-indicator-width: 3px; /* design uses 3px; standard stroke/medium is 2px – see decisions.md */
+}

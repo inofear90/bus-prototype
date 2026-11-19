@@ -1,0 +1,36 @@
+.screen { background: var(--surface-canvas); }
+.scroll { position: absolute; inset: 0; overflow-y: auto; }
+.hero { position: relative; height: 280px; }
+/* Placeholder for the city/bus illustration (asset not provided). */
+.heroArt { position: absolute; inset: 0; background: linear-gradient(180deg, var(--info-100) 0%, var(--brand-100) 55%, var(--success-100) 100%); }
+.heroActions { position: absolute; top: 0; left: 0; right: 0; display: flex; gap: var(--spacing-sm); padding: calc(env(safe-area-inset-top) + var(--spacing-md)) var(--spacing-screen-margin) 0; }
+.spacer { flex: 1; }
+.title { position: absolute; left: var(--spacing-screen-margin); bottom: var(--spacing-lg); display: flex; flex-direction: column; gap: var(--spacing-xs); }
+.body { display: flex; flex-direction: column; gap: var(--spacing-lg); padding: var(--spacing-lg) var(--spacing-screen-margin) 40px; }
+.city { display: inline-flex; align-items: center; gap: var(--spacing-xs); align-self: flex-start; }
+.search {
+  display: flex; align-items: center; gap: var(--spacing-sm); height: 48px; padding: 0 var(--spacing-lg);
+  border-radius: var(--radius-full); border: 1.5px solid var(--border-selected); background: var(--surface-default);
+  box-shadow: var(--elevation-lowest); text-align: left;
+}
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--spacing-sm); }
+.feature {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 56px var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md); position: relative; margin-top: 24px; transition: transform 120ms ease;
+}
+.feature:active { transform: scale(0.97); }
+.featureArt { position: absolute; top: -24px; left: 50%; margin-left: -32px; width: 64px; height: 64px; border-radius: var(--radius-full); background: var(--surface-default); box-shadow: var(--elevation-low); }
+.blue { background: linear-gradient(180deg, var(--info-100), var(--surface-default)); }
+.green { background: linear-gradient(180deg, var(--success-100), var(--surface-default)); }
+.yellow { background: linear-gradient(180deg, var(--warning-100), var(--surface-default)); }
+.blue .featureArt { background: var(--info-300); }
+.green .featureArt { background: var(--success-300); }
+.yellow .featureArt { background: var(--warning-300); }
+.stats { position: relative; border: var(--stroke-thin) solid var(--success-300); border-radius: var(--radius-md); padding: 28px var(--spacing-lg) var(--spacing-lg); background: linear-gradient(180deg, var(--surface-default), var(--success-100)); margin-top: var(--spacing-sm); }
+.statsBadge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--feedback-success-text); padding: 2px var(--spacing-md); border-radius: var(--radius-full); white-space: nowrap; }
+.statsRow { display: flex; gap: var(--spacing-md); }
+.statsRow > div { flex: 1; display: flex; flex-direction: column; gap: var(--spacing-xs); }
+.statsRule { width: var(--stroke-thin); background: var(--border-default); }
+.news { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-sm); }
+.newsCard { height: 160px; border-radius: var(--radius-md); background: linear-gradient(160deg, var(--brand-200), var(--info-200)); }
+@media (min-width: 520px) and (min-height: 700px) { .heroActions { padding-top: 56px; } }

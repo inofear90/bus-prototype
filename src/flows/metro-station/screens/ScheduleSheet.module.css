@@ -1,0 +1,18 @@
+.layer { position: absolute; inset: 0; z-index: 40; }
+.scrim { position: absolute; inset: 0; background: var(--scrim-default); animation: fade 240ms ease both; }
+.sheet {
+  position: absolute; left: 0; right: 0; bottom: 0; top: 80px; display: flex; flex-direction: column;
+  background: var(--surface-default); border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  box-shadow: var(--sheet-shadow); animation: up 320ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.header { display: flex; align-items: center; gap: var(--spacing-sm); padding: 20px calc(var(--spacing-screen-margin) + var(--spacing-xs)) var(--spacing-lg) var(--spacing-screen-margin); }
+.header > :first-child { flex: 1; }
+.chips { display: flex; gap: var(--spacing-sm); padding: 0 var(--spacing-screen-margin) var(--spacing-md); }
+.chips > * { flex: 1; }
+.grid { flex: 1; min-height: 0; padding: 0 var(--spacing-screen-margin) calc(var(--spacing-xl) + env(safe-area-inset-bottom)); }
+.closing .scrim { animation: fadeOut 200ms ease both; }
+.closing .sheet { animation: down 220ms ease-in both; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes up { from { transform: translateY(100%); } }
+@keyframes fadeOut { to { opacity: 0; } }
+@keyframes down { to { transform: translateY(100%); } }

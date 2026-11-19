@@ -1,0 +1,14 @@
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+  color: var(--icon-default); transition: transform 120ms ease;
+}
+.btn:active { transform: scale(0.94); }
+.sm { width: var(--size-control-sm); height: var(--size-control-sm); }
+.md { width: var(--size-control-md); height: var(--size-control-md); }
+.square { border-radius: var(--spacing-sm); }
+.floating.square { border-radius: var(--radius-md); }
+.round { border-radius: var(--radius-full); }
+.field { background: var(--surface-field); border: var(--control-border); box-shadow: var(--control-shadow); }
+.surface { background: var(--surface-default); border: var(--control-border); box-shadow: var(--control-shadow); }
+.floating { background: var(--surface-default); box-shadow: var(--floating-shadow), var(--shadow-micro); }
+.ghost { background: transparent; }

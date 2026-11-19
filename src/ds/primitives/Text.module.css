@@ -1,0 +1,11 @@
+.inherit { color: inherit; }
+.primary { color: var(--text-primary); }
+.secondary { color: var(--text-secondary); }
+.disabled { color: var(--text-disabled); }
+.brand { color: var(--text-brand); }
+.emphasis { color: var(--text-on-light); }
+.success { color: var(--feedback-success-text); }
+.info { color: var(--feedback-info-strong); }
+.on-brand { color: var(--text-on-brand); }
+.on-inverse { color: var(--text-on-inverse); }
+.truncate { display: block; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }

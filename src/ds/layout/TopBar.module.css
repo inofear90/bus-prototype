@@ -1,0 +1,9 @@
+.bar {
+  position: absolute; z-index: 30; left: 0; right: 0; top: 0;
+  display: flex; gap: var(--spacing-sm); align-items: center;
+  padding: calc(env(safe-area-inset-top) + var(--spacing-md)) var(--spacing-screen-margin) 0;
+  pointer-events: none;
+}
+.bar > * { pointer-events: auto; }
+.slot { flex: 1; min-width: 0; }
+@media (min-width: 520px) and (min-height: 700px) { .bar { padding-top: 56px; } }

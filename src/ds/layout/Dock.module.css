@@ -1,0 +1,8 @@
+.dock {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 20;
+  padding: var(--spacing-lg) var(--spacing-screen-margin) calc(var(--spacing-lg) + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, var(--alpha-white-0), var(--surface-default) 30%);
+  pointer-events: none;
+}
+.slot { display: flex; gap: var(--spacing-sm); pointer-events: auto; padding-top: var(--spacing-sm); }
+@media (min-width: 520px) and (min-height: 700px) { .dock { padding-bottom: 28px; } }

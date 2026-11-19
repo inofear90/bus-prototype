@@ -21,6 +21,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
 }
+/* Hide scrollbars everywhere (mobile app look); scrolling still works. */
+* { scrollbar-width: none; -ms-overflow-style: none; }
+*::-webkit-scrollbar { display: none; width: 0; height: 0; }
+
 button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
 p, h1, h2, h3, h4 { margin: 0; }
 ul, ol { margin: 0; padding: 0; list-style: none; }

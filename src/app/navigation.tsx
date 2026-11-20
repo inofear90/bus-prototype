@@ -1,9 +1,10 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react';
 
-export type Route =
-  | { name: 'home' }
-  | { name: 'stations' }
-  | { name: 'station'; id: string };
+/** A screen inside a flow. Flows choose their own route names and params. */
+export interface Route {
+  name: string;
+  params?: Record<string, string>;
+}
 
 interface Nav {
   stack: Route[];
@@ -14,11 +15,11 @@ interface Nav {
   /** Called by the stack view when the exit animation has finished. */
   finishBack: () => void;
 }
-const Ctx = createContext<Nav>({ stack: [{ name: 'home' }], leaving: false, push: () => {}, back: () => {}, finishBack: () => {} });
+const Ctx = createContext<Nav>({ stack: [], leaving: false, push: () => {}, back: () => {}, finishBack: () => {} });
 
 /** Minimal stack navigator wired to browser history (hardware/browser back works and animates too). */
-export function NavigationProvider({ children }: { children: ReactNode }) {
-  const [stack, setStack] = useState<Route[]>([{ name: 'home' }]);
+export function NavigationProvider({ initial, children }: { initial: Route; children: ReactNode }) {
+  const [stack, setStack] = useState<Route[]>([initial]);
   const [leaving, setLeaving] = useState(false);
 
   useEffect(() => {

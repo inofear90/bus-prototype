@@ -1,11 +1,15 @@
 import { cx, DeviceFrame, ToastProvider } from '@ds';
-import { renderMetroStationRoute } from '../flows/metro-station';
+import { useState } from 'react';
+import type { FlowDefinition } from './flow';
+import { FlowPicker } from './FlowPicker';
+import { startFlowId } from './startFlow';
+import { FLOWS } from '../flows/registry';
 import { Gallery } from '../gallery/Gallery';
 import { FavoritesProvider } from './favorites';
 import { NavigationProvider, useNavigation } from './navigation';
 import s from './App.module.css';
 
-function Stack() {
+function Stack({ flow }: { flow: FlowDefinition }) {
   const { stack, leaving, finishBack } = useNavigation();
   const top = stack.length - 1;
   // Keep the screen below mounted (its state survives "back").
@@ -26,7 +30,7 @@ function Stack() {
             aria-hidden={i !== top}
             onAnimationEnd={isTop && leaving ? (e) => e.target === e.currentTarget && finishBack() : undefined}
           >
-            {renderMetroStationRoute(route)}
+            {flow.render(route)}
           </div>
         );
       })}
@@ -35,16 +39,23 @@ function Stack() {
 }
 
 export function App() {
+  const [flowId, setFlowId] = useState(startFlowId);
   if (window.location.hash === '#/gallery') return <Gallery />;
+  const flow = FLOWS.find((f) => f.id === flowId);
   return (
     <DeviceFrame>
-      <NavigationProvider>
-        <FavoritesProvider>
-          <ToastProvider>
-            <Stack />
-          </ToastProvider>
-        </FavoritesProvider>
-      </NavigationProvider>
+      {flow ? (
+        // Only the chosen flow is mounted – other flows never show up in a presentation.
+        <NavigationProvider key={flow.id} initial={flow.initialRoute}>
+          <FavoritesProvider>
+            <ToastProvider>
+              <Stack flow={flow} />
+            </ToastProvider>
+          </FavoritesProvider>
+        </NavigationProvider>
+      ) : (
+        <FlowPicker onPick={setFlowId} />
+      )}
     </DeviceFrame>
   );
 }

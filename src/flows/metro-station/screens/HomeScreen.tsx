@@ -2,13 +2,18 @@ import { Icon, IconButton, Screen, Text, useToast } from '@ds';
 import { useNavigation } from '@app/navigation';
 import s from './HomeScreen.module.css';
 
+import heroImg from '../assets/home-hero.jpg';
+import routesImg from '../assets/feature-routes.png';
+import passImg from '../assets/feature-monthly-pass.png';
+import stopsImg from '../assets/feature-stops.png';
+
 const FEATURES = [
-  { key: 'routes', top: 'Tra cứu', title: 'Tuyến xe', tone: s.blue },
-  { key: 'pass', top: 'Mua/Quản lý', title: 'Vé tháng', tone: s.green },
-  { key: 'stops', top: 'Tra cứu', title: 'Trạm xe', tone: s.yellow },
+  { key: 'routes', top: 'Tra cứu', title: 'Tuyến xe', tone: s.blue, img: routesImg },
+  { key: 'pass', top: 'Mua/Quản lý', title: 'Vé tháng', tone: s.green, img: passImg },
+  { key: 'stops', top: 'Tra cứu', title: 'Trạm xe', tone: s.yellow, img: stopsImg },
 ] as const;
 
-/** VinBus home – entry point of the flow ("Tra cứu Trạm xe"). Artwork is placeholder. */
+/** VinBus home – entry point of the flow ("Tra cứu Trạm xe"). Tin Xanh cards are still placeholders. */
 export function HomeScreen() {
   const { push } = useNavigation();
   const toast = useToast();
@@ -18,7 +23,7 @@ export function HomeScreen() {
     <Screen className={s.screen}>
       <div className={s.scroll}>
         <header className={s.hero}>
-          <div className={s.heroArt} aria-hidden />
+          <img className={s.heroArt} src={heroImg} alt="" aria-hidden />
           <div className={s.heroActions}>
             <IconButton icon="arrow-left" label="Quay lại" variant="floating" size="md" shape="round" onClick={outOfScope} />
             <span className={s.spacer} />
@@ -50,7 +55,7 @@ export function HomeScreen() {
                 className={`${s.feature} ${f.tone}`}
                 onClick={f.key === 'stops' ? () => push({ name: 'stations' }) : outOfScope}
               >
-                <span className={s.featureArt} aria-hidden />
+                <img className={s.featureArt} src={f.img} alt="" aria-hidden width={64} height={64} />
                 <Text variant="label-md-reg" tone="secondary">{f.top}</Text>
                 <Text variant="label-lg-smb" tone="primary">{f.title}</Text>
               </button>

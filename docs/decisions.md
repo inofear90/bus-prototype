@@ -125,7 +125,7 @@ Effect cũ trong luồng được map như sau (đề xuất, chờ designer xá
 | Gạch chân tab | 3px, theo mock (`stroke/medium` chuẩn là 2px) | Chốt 2px hay 3px |
 | Nền icon cửa | `transit/gate-subtle` #fff8e6 | Đưa vào bộ chuẩn |
 | Icon thiếu trong bộ icon | `more` (3 chấm) và `headset` là **placeholder**. `clock` được cắt từ sprite `ic.ref/clock.svg` | Bổ sung icon |
-| Minh hoạ Home (thành phố, xe bus, 3 tính năng, Tin Xanh) | Khối màu placeholder | Cung cấp asset |
+| Minh hoạ Home | Hero và 3 thumbnail dịch vụ đã dùng asset thật (20/11). Mục Tin Xanh vẫn là placeholder | Cung cấp ảnh Tin Xanh |
 | Giá vé từ các ga khác Thảo Điền | Quy tắc mock theo số ga: ≤3 ga: 7.000; 4–5 ga: 12.000; 6–8 ga: 24.000; ≥9 ga: 28.000 | – |
 | Chuyến cuối | 22:28 tính từ ga đầu (05:00 + bội số của 8 phút, ≤ 22:30) | – |
 | Thẻ trong SC-01 | Thẻ metro và bus đều có trạng thái selected. Nút trong thẻ bus chỉ hiện thông báo ngoài phạm vi | – |

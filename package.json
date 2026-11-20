@@ -7,7 +7,7 @@
     "tokens": "node scripts/build-tokens.mjs",
     "icons": "node scripts/build-icons.mjs",
     "dev": "vite",
-    "build": "npm run tokens && tsc -b && vite build",
+    "build": "npm run tokens && tsc --noEmit -p . && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest run",

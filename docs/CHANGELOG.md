@@ -5,6 +5,8 @@ Mốc đồng bộ của Claude nằm ở `docs/sync/claude.json`. Xem `docs/WOR
 
 ## Chưa phát hành
 
+- [Claude] Home: dùng ảnh hero (thành phố + xe bus) và 3 thumbnail dịch vụ (Tuyến xe, Vé tháng, Trạm xe) do designer cung cấp, thay cho khối màu placeholder. Cắt bỏ viền xám 1px ở mép dưới ảnh hero. Mục Tin Xanh vẫn là placeholder.
+- [Claude] Bỏ `tsconfig.tsbuildinfo` khỏi repo (file build vô tình bị commit ở PR #2).
 - [Claude] Thêm danh sách luồng (`src/flows/registry.ts`) và màn chọn luồng. Chọn luồng trình diễn qua `prototype.config.json`, `VITE_FLOW` hoặc `?flow=`.
 - [Claude] Dev server nhận cổng `$PORT`; thêm `.figma/make/{install,dev,deploy-preview}` và `.mise.toml` cho Figma code layers.
 - [Claude] Quy trình Claude ⇄ Figma: mẫu PR, CHANGELOG, thư mục `overrides/`, lệnh `npm run check:adhoc` (chạy cả ở CI), mốc đồng bộ `docs/sync/claude.json`.

@@ -1,6 +1,6 @@
 {
   "$comment": "Last main commit Claude has reviewed (docs/WORKFLOW.md §4). Updated by Claude at the end of each sync.",
-  "reviewedThrough": "bb1595fe4fa9bebaf3bacb736762c10af4ce6b73",
-  "reviewedAt": "2026-11-20T09:45:00+07:00",
-  "note": "Baseline after v1.0.0 (PR #1). Everything up to here was written by Claude."
+  "reviewedThrough": "8f5dd212f140b2a32537330b6c77c17bc48eca1f",
+  "reviewedAt": "2026-11-20T10:05:00+07:00",
+  "note": "Reviewed PR #2 (Claude). No Figma branches or ad-hoc changes yet."
 }

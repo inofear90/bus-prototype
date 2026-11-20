@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Figma code layers: start the live-preview server. vite.config.ts listens on $PORT.
+# The flow shown is read from prototype.config.json ("flow"); set VITE_FLOW to override.
+set -euo pipefail
+exec npm run dev

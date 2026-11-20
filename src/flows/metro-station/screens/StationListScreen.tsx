@@ -55,7 +55,7 @@ export function StationListScreen() {
                   stop.metroStationId ? (
                     <>
                       <Button variant="primary" size="sm" icon="route" onClick={() => toast(OUT_OF_SCOPE_ROUTE)}>Đi đến ga</Button>
-                      <Button size="sm" onClick={() => push({ name: 'station', id: stop.metroStationId! })}>Xem chi tiết</Button>
+                      <Button size="sm" onClick={() => push({ name: 'station', params: { id: stop.metroStationId! } })}>Xem chi tiết</Button>
                     </>
                   ) : (
                     // Bus stops: selectable, but their detail and routing are out of scope in v1.

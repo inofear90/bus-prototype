@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Figma code layers: install project dependencies (runs before dev / publish / preview).
+set -euo pipefail
+npm ci --no-audit --no-fund

@@ -7,7 +7,7 @@
   .stage { background: var(--neutral-100); }
   .device {
     width: 375px; height: min(812px, calc(100vh - 32px)); border-radius: 44px;
-    box-shadow: var(--elevation-highest), 0 0 0 10px var(--neutral-900);
+    box-shadow: var(--elevation-highest), 0 0 0 10px var(--neutral-900); /* adhoc-ok: desktop device bezel, not product UI */
   }
   .statusBar {
     display: flex; position: absolute; z-index: 60; top: 0; left: 0; right: 0; height: 44px;

@@ -1,0 +1,3 @@
+# Runtime versions for Figma code layers (and anyone using mise).
+[tools]
+node = "20"

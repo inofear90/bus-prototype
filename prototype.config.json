@@ -1,0 +1,4 @@
+{
+  "$comment": "Flow opened on start. Set to a flow id from src/flows/registry.ts (e.g. \"metro-station\") to present one flow only; leave empty for the flow picker. Each Figma code layer can set its own value. VITE_FLOW and ?flow= override it.",
+  "flow": ""
+}

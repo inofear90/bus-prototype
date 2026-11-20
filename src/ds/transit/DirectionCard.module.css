@@ -11,7 +11,7 @@
 .platform { white-space: nowrap; }
 .eta { display: flex; gap: var(--spacing-sm); width: 90px; flex-shrink: 0; align-items: flex-start; }
 /* Display number: 44/40, -4% – not in the Foundation scale yet (see decisions.md). */
-.minutes { font-size: 44px; line-height: 40px; letter-spacing: -0.04em; font-weight: var(--font-weight-medium); color: var(--feedback-success-text); }
+.minutes { font-size: 44px; line-height: 40px; letter-spacing: -0.04em; font-weight: var(--font-weight-medium); color: var(--feedback-success-text); } /* adhoc-ok: display size missing in Foundation (decisions.md §6) */
 .unit { display: flex; flex-direction: column; }
 .unit > :first-child { margin-bottom: -2px; }
 .sub { opacity: 0.79; }

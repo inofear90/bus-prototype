@@ -4,9 +4,11 @@ Prototype tương tác cho luồng **Tra cứu trạm → Chi tiết ga metro** 
 
 - Prototype: GitHub Pages của repo (sau khi bật Pages, xem bên dưới). Mở trên điện thoại để có cử chỉ thật.
 - Thư viện component: thêm `#/gallery` vào cuối link.
+- Mở thẳng một luồng: thêm `?flow=metro-station`. Xem các luồng hiện có trong `src/flows/registry.ts`.
 - Đổi giờ giả lập: thêm `?t=HH:MM` (mặc định 15:17, nên để trong khung 05:00–22:00).
 
 Quyết định và phạm vi: [`docs/decisions.md`](docs/decisions.md). Kế hoạch: [`docs/plan.md`](docs/plan.md).
+**Quy trình Claude ⇄ Figma code layers:** [`docs/WORKFLOW.md`](docs/WORKFLOW.md). Lịch sử thay đổi: [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
 ## Chạy local
 
@@ -15,6 +17,8 @@ npm install
 npm run dev        # http://localhost:5173
 npm test           # logic lịch tàu và giá vé
 npm run lint       # gồm rule: src/ds không được import từ flows
+npm run check:adhoc # báo giá trị viết cứng ngoài design system
+npm run verify     # lint + check:adhoc + test + build (chạy trước khi mở PR)
 npm run build
 ```
 
@@ -25,7 +29,7 @@ design-tokens/figma-variables.json   variables chuẩn export từ Figma
 scripts/build-tokens.mjs             -> src/ds/tokens/tokens.css (chạy tự động khi build)
 scripts/build-icons.mjs              -> src/ds/icons/icons.generated.ts
 src/ds/          THƯ VIỆN: tokens, primitives, layout (BottomSheet, MapSlot…), transit components
-src/flows/       các luồng; chỉ lắp ráp từ '@ds'
+src/flows/       các luồng (registry.ts); chỉ lắp ráp từ '@ds'; ad-hoc trong <luồng>/overrides/
 src/app/         điều hướng, clock giả lập, yêu thích
 src/gallery/     catalogue component (#/gallery)
 ```
@@ -38,11 +42,11 @@ src/gallery/     catalogue component (#/gallery)
 
 ## Thêm một luồng mới
 
-1. Tạo `src/flows/<ten-luong>/`. Chỉ import từ `@ds`.
+1. Tạo `src/flows/<id>/index.tsx` export một `FlowDefinition`, rồi thêm 1 dòng vào `src/flows/registry.ts`. Chỉ import từ `@ds`.
 2. Nếu luồng cần component hoặc style chưa có, bổ sung vào `src/ds/` trước (không chứa dữ liệu hay copy cứng). Sau đó thêm component vào gallery.
 3. Thứ tự lớp trên màn hình có map: map (0) < top bar (10) < sheet + lớp phủ (20) < dock (30) < sheet modal (40) < toast (50). Ở mức sheet cao nhất, lớp phủ của sheet che cả map và top bar; chạm vào lớp phủ thì sheet hạ một mức.
 4. Màn hình có map dùng `MapSlot` và gọi map qua `MapAdapter` (`focusPoint`, `highlightPath`). Khi có map thật, chỉ cần thay adapter.
 
 ## Deploy
 
-Workflow `.github/workflows/deploy.yml` tự chạy khi có push lên `main`. Bật Pages một lần duy nhất: **Settings → Pages → Source: GitHub Actions**.
+Workflow `.github/workflows/deploy.yml` tự chạy khi có push lên `main`; `check.yml` chạy trên mọi PR. Bật Pages một lần duy nhất: **Settings → Pages → Source: GitHub Actions**.

@@ -3,7 +3,7 @@
 ```
 Claude ──(PR từ claude/*)──▶  main  ◀──(PR từ figma/*)── Figma code layer
    ▲                          │  └─ GitHub Pages (deploy)
-   └── đọc CHANGELOG + git log từ mốc sync + check:adhoc
+   └── đọc CHANGELOG + git log từ docs/sync/claude.json + check:adhoc
 ```
 
 ## 1. Nhánh và PR
@@ -33,7 +33,7 @@ Code layer chạy cả ứng dụng, nên luồng được mở được chọn 
 Không sửa `src/ds/tokens/tokens.css` bằng tay. File này được sinh từ `design-tokens/figma-variables.json`.
 
 ## 4. Claude đồng bộ ở đầu mỗi phiên
-1. `git fetch --tags` rồi tìm mốc gần nhất: `git tag -l 'sync/claude-*' | sort | tail -1`.
+1. `git fetch origin`, rồi lấy mốc: `reviewedThrough` trong `docs/sync/claude.json`.
 2. Đọc thay đổi từ mốc đó:
    - `git log --oneline <mốc>..origin/main`
    - `git diff --stat <mốc>..origin/main`
@@ -42,4 +42,4 @@ Không sửa `src/ds/tokens/tokens.css` bằng tay. File này được sinh từ
    - **Đưa vào design system**: token hoặc component mới trong `src/ds`, kèm ghi chú cho designer cập nhật Figma.
    - **Giữ riêng cho luồng**: để nguyên trong `overrides/`.
    - **Bỏ**: hoàn tác qua một PR.
-4. Báo cáo cho người dùng, rồi đặt mốc mới: `git tag sync/claude-YYYYMMDD-HHMM origin/main && git push origin --tags`.
+4. Báo cáo cho người dùng, rồi cập nhật `docs/sync/claude.json` (`reviewedThrough` = SHA của `origin/main` đã xem) trong PR kế tiếp của Claude.
